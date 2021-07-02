@@ -1,0 +1,18 @@
+Given the following:
+
+        s1 = 'hello'
+        s2 = 'to' 
+        s3 = 'you'
+        s4=  ' '
+        s5 = '!'
+        n = 2
+        
+Write an expression using only these variables that will evaluate to:
+
+         'hello to you! hello to you! ' 
+
+You should use concatenation and any other suitable operators.
+
+Each variable must be used at least once.
+
+You will need to show a demonstrator that it works.

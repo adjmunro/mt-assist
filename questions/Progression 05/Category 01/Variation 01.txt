@@ -1,0 +1,22 @@
+Requires File: 66.zip
+
+Write a function that takes a single string argument representing the name of 
+a file that contains ints separated by spaces. The function should return the 
+largest number in the file. You may trust that the file will only contain 
+space-separated ints and will not be empty.
+
+Remember to have the files in the same directory as the python file.
+
+The function should pass the following doctests:
+
+def find_largest_num(file_name):
+    '''
+    >>> find_largest_num('numbers.txt')
+87998
+    >>> find_largest_num('numbers_2.txt')
+125
+    '''
+    
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

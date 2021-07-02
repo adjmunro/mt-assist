@@ -1,0 +1,19 @@
+In a Python script write a function called boolean_test that takes two Boolean 
+arguments (x and y) and prints out the following Boolean expressions and their 
+respective values:
+
+not(x==y)
+x or not y
+
+So for example the function might be called like this:
+
+boolean_test(True, False)
+
+In which case the output would be:
+
+>>>
+not(True == False) is True
+True or not False is True
+>>>
+
+Call the function in the main routine several times with a good selection of test values.

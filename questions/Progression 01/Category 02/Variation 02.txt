@@ -1,0 +1,7 @@
+Enter the following code into a Python script:
+
+word_1= "severe"
+word_2= "delegate"
+
+Add to the script so that it prints the result of word_1 concatenated with word_2 with a hyphen 
+in the middle (no spaces).

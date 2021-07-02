@@ -1,0 +1,5 @@
+In a Python script write a function that takes a string and 2 ints. It should return True if the ints are equal to each other and 
+the length of the string is greater than that number. Otherwise it should return False.
+
+Add a main routine that calls the function several times and prints out the returned value each time. Use a 
+good selection of test data.

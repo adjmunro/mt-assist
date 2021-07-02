@@ -1,0 +1,4 @@
+In a Python script write a function that takes a string, an int and a Boolean. If the Boolean is True and the length of the string 
+is greater than the int it should print the string, otherwise it should print "not applicable"
+
+Add a main routine that calls the function several times. Use a good selection of test data.

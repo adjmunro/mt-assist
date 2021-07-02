@@ -1,0 +1,36 @@
+The story goes that as a child, the mathemetician Carl Gauss(1777 - 1855) was set the task of adding up the numbers 
+from one to a hundred. Much to his teacher's astonishment (and possibly annoyance) he solved it in a minute. Young Carl 
+had realised that rather than add 1 + 2 + 3 + .. + 99 + 100, he could form 50 equal pairs:
+
+1              +              100               = 101
+  2            +           99           = 101
+    3          +        98              = 101
+
+
+And so on. This becomes a simple multiplication:
+
+50 * 101 = 5050
+
+Although this technique can be used with any starting point we will keep it simple and always start from one.
+
+Write a function, add_sequence, that takes an int, upper_limit, and prints out the sum of all the numbers from 1 up to and
+including upper_limit using Gauss's formula which:
+
+                divides the upper limit by 2 (using floating point division)
+
+                multiplies that number by the upper limit plus one 
+                
+
+When called as follows:
+                add_sequence(15)
+
+Your function should display the result:
+
+                The sum of all the integers between 1 and 15 inclusive is 120.
+
+Note: the result is displayed as an int.
+
+In the main routine ask the user to enter a number. Call the function passing in the number obtained from the user.
+You may assume the user will enter a positive number.
+
+Call the function several more times using sensible hardcoded values. 

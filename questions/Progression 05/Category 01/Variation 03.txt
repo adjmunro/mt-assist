@@ -1,0 +1,29 @@
+Requires File: 68.zip
+
+Write a function that takes a single string argument representing a file name.
+
+The function should open the file (remember to have the files in the same directory as the python file).
+
+The function should then count how many times the words "God" or "Lord" are in the file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word. 
+God. is not expected to match "God"
+
+The function should pass the following doctests:
+
+def count_religious_references(filename):
+    """
+    >>> count_religious_references("anthem.txt")
+3
+    >>> count_religious_references("anthem_uk.txt")
+7
+    >>> count_religious_references("anthem_au.txt")
+0
+    >>> count_religious_references("lorde.txt")
+0
+    """
+
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

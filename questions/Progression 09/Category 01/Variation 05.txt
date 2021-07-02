@@ -1,0 +1,37 @@
+Adapted from Wikipedia, the free encyclopedia
+
+        In mathematics, a square-free, or quadratfrei (from German language) integer, is an 
+        integer which is divisible by no other perfect square than 1. For example, 10 is 
+        square-free but 18 is not, as 18 is divisible by 9 (which is, of course, the square of 3)
+
+Write a function that takes two parameters. The function should return a string containing all the 
+square-free integers between the two numbers (inclusive). In the string each integer should be 
+followed by a space.
+
+You may find it easier to encapsulate, using another function that simply checks if one number is 
+square-free.
+
+Your function should pass the following doctests:
+
+
+def square_free_nums(x, n):
+    '''
+    >>> square_free_nums(10, 20)
+    '10 11 13 14 15 17 19 '
+    >>> square_free_nums(70, 97)
+    '70 71 73 74 77 78 79 82 83 85 86 87 89 91 93 94 95 97 '
+    '''
+    
+if __name__ == '__main__':        
+    import doctest
+    doctest.testmod(verbose = True)
+
+Hint: 
+
+An easy way to determine if an integer, num, is square is to check 
+
+        num ** 0.5 % 1 == 0
+
+Or alternatively:
+
+        num ** 0.5 == int(num ** 0.5)

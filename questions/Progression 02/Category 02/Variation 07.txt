@@ -1,0 +1,16 @@
+Write a function that takes 3 arguments: the name of a sport, the number of players required for 
+each team (including 2 subs) and the number of children that have signed up for that sport. Print 
+out the sport and how many complete teams can be formed.
+
+In the main routine call the function twice. For example the function could be called like 
+this:
+
+calc_teams("Soccer", 13, 149)
+calc_teams("Netball", 9, 123)
+
+which should produce output similar to:
+
+>>>
+Soccer: 11 complete teams
+Netball: 13 complete teams
+>>>

@@ -1,0 +1,30 @@
+Write a function that takes a string and a list of integers and returns a list of characters.  
+Where the ord of a character in the string matches the number in the list at the same index as 
+the character, that character should be included in the list returned by the function.
+
+
+If the list of numbers is shorter than the string then the remaining characters in the string 
+should be added as separate elements to the returned list.
+
+If the list of numbers is longer than the string then the extra numbers in the list should be 
+ignored.
+
+Your function should pass the following doctests:
+
+def matching_ord_nums(string, ord_nums):
+    '''
+    >>> matching_ord_nums('abc', [97, 100, 99])
+    ['a', 'c']
+    >>> matching_ord_nums('abc', [97, 100, 99, 34, 98, 100])
+    ['a', 'c']
+    >>> matching_ord_nums('abcdef', [97, 100, 99])
+    ['a', 'c', 'd', 'e', 'f']
+    >>> matching_ord_nums("{}|['%", [97, 100, 99, 34, 98, 100])
+    []
+    >>> matching_ord_nums('abc', [97, 97, 99])
+    ['a', 'c']
+    '''
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

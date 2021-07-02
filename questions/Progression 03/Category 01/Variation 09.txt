@@ -1,0 +1,27 @@
+Write a function called add_or_subtract that takes 2 Booleans and 2 ints.
+
+If both the Booleans are True the function should print out the full equation
+showing the addition of the two ints. Otherwise the function should print out
+the full equation for the subtraction of the second int from the first int.
+
+So for example if the function is called like this:
+
+add_or_subtract(True, False, 3, 7)
+
+the output would be:
+
+>>>
+3 - 7 is -4
+>>>
+
+If it were called like this:
+
+add_or_subtract(True, True, 5, 3)
+
+the output would be:
+
+>>>
+5 + 3 is 8
+>>>
+
+Add a main routine that calls the function several times. Use a good selection of test data.

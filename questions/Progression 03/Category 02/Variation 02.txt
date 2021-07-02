@@ -1,0 +1,35 @@
+Dr Who actors
+
+The reboot of Dr Who has been airing since 2005. The table below shows the main actor playing 
+the Doctor for each year since. 
+
+The values are inclusive. (Brief appearances and Christmas specials have been ignored for the sake of simplicity).
+
+Christopher Eccleston: 2005     
+David Tennant: 2006-2009
+Matt Smith: 2010-2013   
+Peter Capaldi: 2014-2017        
+Jodie Whittaker: 2018 - 2019
+
+The function should take an int representing a year. It should return the name of the actor playing the Doctor in that year. 
+
+In the event of the year not being covered in the table above simply return "undetermined".
+
+Add a main routine that asks the user for a year, passes it to the function and
+prints out the returned value in a sentence as shown below (where 2009 is the
+value entered by the user):
+
+>>>
+Enter the year : 2009
+The main actor playing Dr Who in 2009:  David Tennant.
+>>>
+
+Alternatively (where 1999 is the value entered by the user):
+
+>>>
+Enter the year : 1999
+The main actor playing Dr Who in 1999:  undetermined.
+>>>
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned value each time. 

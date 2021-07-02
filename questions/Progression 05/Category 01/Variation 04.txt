@@ -1,0 +1,28 @@
+Requires File: 69.zip
+
+Write a function that takes 2 arguments - a file name and a single character string. 
+
+The function should open the file and return the last word in the file that starts with the character argument. The character 
+is case-sensitive, i.e. 'K' is considered different to 'k'.
+
+If there is not a word in the file that starts with the given character the function should just return an empty string.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+
+Remember to have the files in the same directory as the python file.
+
+The function should pass the following doctests:
+
+def last_word_to_start_with(file_name, ch):
+    '''
+    >>> last_word_to_start_with('bleak_house.txt', 'F')
+    'For'
+    >>> last_word_to_start_with('styles.txt', 'r')
+    'ran'
+    >>> last_word_to_start_with('styles.txt', 'X')
+    ''
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

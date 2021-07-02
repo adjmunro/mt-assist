@@ -1,0 +1,11 @@
+Write a function that takes an argument representing a distance in miles and prints the 
+equivalent distance in kilometres. Base your calculation on 1 mile = 1.61km.
+
+In the main routine ask the user to enter the number of miles. Call the function, passing in this 
+value.
+
+If the user enters 7.6 your program should produce the following output:
+
+7.6 miles is 12.236km
+
+Call the function several more times in the main routine, passing in sensible test values.

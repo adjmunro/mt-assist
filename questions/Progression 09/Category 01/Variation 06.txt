@@ -1,0 +1,27 @@
+Consider the following sequence where each number is the sum of the digits of all preceding terms:
+
+
+1, 1, 2, 4, 8, 16, 23, 28, 38, 49, ...
+
+Note that 16 is followed by 23 because 1 + 1 + 2 + 4 + 8 + (1 + 6) == 23
+
+Likewise 23 is followed by 28 because 1 + 1 + 2 + 4 + 8 + (1 + 6) + (2 + 3) == 28
+
+
+Write a function that takes an int, n, and returns the (n + 1)th number in the sequence. Your 
+function must pass the following doctests:
+
+def sum_digits_sequence(n):
+    '''
+    >>> sum_digits_sequence(1000000)
+31054319
+    >>> sum_digits_sequence(9)
+49
+    >>> sum_digits_sequence(0)
+1
+    '''
+    
+    
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

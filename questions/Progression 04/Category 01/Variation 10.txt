@@ -1,0 +1,29 @@
+Remove Substring
+
+Write a function that takes 2 arguments - a main string and a smaller 
+(sub) string. If the sub-string occurs in the main string the
+function should return the main string but with the first occurrence of
+the sub-string removed.
+
+If the sub-string does not occur in the main string simply return the
+main string.
+
+You are NOT permitted to use the replace method.
+
+Hint: Check out str.find
+
+def remove_substring(mainstring, substring):
+    '''
+    >>> remove_substring('qwerty', 'wer')
+    'qty'
+    >>> remove_substring('qwertyqwerty', 'wer')
+    'qtyqwerty'
+    >>> remove_substring('qwerty', '!!!!')
+    'qwerty'
+    >>> remove_substring('Wow - this one is a proper sentence!', 'en')
+    'Wow - this one is a proper stence!'
+    '''
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

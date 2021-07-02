@@ -1,0 +1,62 @@
+Requires File: 75.zip
+
+Words that start with a character whose ord is a multiple of a specified int
+
+Remember: The ord function takes a single character string and returns its equivalent ordinal number. 
+
+So: 
+
+        ord('a') returns 97
+
+        ord('b') returns 98
+
+        ord('A') returns 65
+
+Write a function called words_starting_with_multiple that takes two file names and an int.
+The first file name is the file to be read and processed, the second is the destination 
+file for your answer.
+
+The function should open the given file for processing and then write out to the 
+destination file all the words that start with a character whose ord is a multiple of the 
+int argument.
+
+E.g
+
+If the int argument was 5 and the file contained the word dog, then dog would be one of 
+the words written out to the destination file. This is because the ord of 'd' is 100 and 100 is a 
+multiple of 5.  Each word should be followed by a space.
+
+Remember to have all the required files in the same directory as the python file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+
+Your function should pass the doctests below:
+
+
+
+def words_starting_with_multiple(file_name, destination, num):
+    '''
+    >>> words_starting_with_multiple("styles.txt",'q2_answer1.txt', 6)
+    >>> sfile = open('q2_answer1.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('words_starting_with_multiple_answer1.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    >>> words_starting_with_multiple("bleak_house.txt",'q2_answer2.txt', 8)
+    >>> sfile = open('q2_answer2.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('words_starting_with_multiple_answer2.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    '''
+    
+    
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

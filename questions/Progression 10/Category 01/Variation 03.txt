@@ -1,0 +1,17 @@
+Requires File: 144.zip
+
+Write a simple GUI that calculates the temperature after wind chill is considered. 
+
+The application should have:
+
+        an entry box for the current temperature in celsius
+        an entry box for the wind speed in km/h
+
+The temperature after factoring in wind chill is calculated as follows:
+       
+       13.12 + (temp * 0.6215) - (11.37 * wind ** 0.16) + (0.3965 * temp * wind ** 0.16)
+
+where temp is the current temperature and wind is the wind speed.
+
+The application should have the same layout as shown in the accompanying images (your program
+won't pass unless the layout is as shown in the images in the .zip file).

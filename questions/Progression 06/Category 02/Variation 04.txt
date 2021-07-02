@@ -1,0 +1,29 @@
+Requires File: 88.zip
+
+Write a function that takes a string argument representing a filename and an int argument, x.
+ 
+The function should open the file and, using a while loop, return a string containing the first x 
+words that start with a capital letter. Each word should be followed by a space. If the file 
+contains fewer than x words that start with a capital, the function should simply include all the words in the file that do.
+
+Remember to have all the required files in the same directory as the python file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word.
+
+Your function should pass the doctests below:   
+
+def first_x_capitalised_words(filename, x):
+    '''
+    >>> first_x_capitalised_words('wuthering_heights.txt', 5)
+    "Wuthering Heights Mr. Heathcliff's Pure, "
+    >>> first_x_capitalised_words('styles.txt', 3)
+    'I Front Convalescent '
+    >>> first_x_capitalised_words('phrase.txt', 30)
+    'Hello World! '
+    '''
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose = True)

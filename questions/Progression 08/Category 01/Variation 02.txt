@@ -1,0 +1,78 @@
+Requires File: 152.zip
+
+Simplified Quiz
+
+
+Add to the QuizQuestion class below so that it passes the doctests. Note the default values that are used when 
+an instance of QuizQuestion is made with no arguments.
+
+Add methods to:
+        initialise the new instance with:
+                the question
+                the possible answers - a list containing 4 options
+                the index of the correct answer (in the list of possible answers). Stored as an int.
+                        (You may trust that this is always a number between 0 and 3 inclusive)
+                
+        return a string representation of the object(see the doctests)
+        
+        display the question followed by the possible answers
+        each possible answer should be preceded by 4 spaces followed by the appropriate index (0, 1, 2 or 3)
+        followed by a colon and a space (see doctests)
+                                                
+        
+        assess the user's answer:
+                ask the user to enter 0, 1, 2 or 3 - you may trust that they will enter only one of these options, e.g:
+                
+                        Please enter your answer as 0, 1, 2 or 3: 
+                
+                return True if the user has selected the correct answer and False if they have not
+        
+In the main routine:
+
+        open Questions.txt and use the contents to create a list of QuizQuestion objects
+                Example line:
+                
+                        How many states in the U.S. start with the letter 'M'?,6,7,8,9,2
+                
+                Note that the question, the 4 possible answers and the answer index are all separated by commas
+                
+        
+        
+        loop thought the list of  QuizQuestion objects 
+                call the display question method on each object
+                call the assess answer method on each object
+                
+        keep track of how many questions the user gets right and display this at the end e.g:
+             
+                You scored 2 out of 5      
+
+class QuizQuestion:
+        '''
+    >>> question1 = QuizQuestion()
+    >>> print(question1)
+    Question: ?
+    Possible answers: ['a', 'b', 'c', 'd']
+    Index of correct answer: 0
+    >>> question1.display_question()
+    ?
+        0: a
+        1: b
+        2: c
+        3: d
+    >>> question2 = QuizQuestion("What is the capital of Australia?", ["Brisbane", "Sydney", "Canberra", "Melbourne"], 2)
+    >>> print(question2)
+    Question: What is the capital of Australia?
+    Possible answers: ['Brisbane', 'Sydney', 'Canberra', 'Melbourne']
+    Index of correct answer: 2
+    >>> question2.display_question()
+    What is the capital of Australia?
+        0: Brisbane
+        1: Sydney
+        2: Canberra
+        3: Melbourne
+    '''
+
+
+if __name__ == "__main__":    
+    import doctest
+    doctest.testmod(verbose = True)

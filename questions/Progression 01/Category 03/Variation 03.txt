@@ -1,0 +1,7 @@
+Enter the following code into a script:
+
+x = 3
+y = 4
+z = 10
+
+Add code to print the remainder when x raised to the power of y is divided by z. (Hint: use the modulus operator).

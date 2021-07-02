@@ -1,0 +1,27 @@
+In a Python script write a function that takes a single argument indicating the latitude of 
+somewhere on Earth.
+ 
+If the latitude is between 0 and 23 inclusive, then return 
+
+tropical
+
+If the latitude is greater than 66, then return
+
+polar
+ 
+If the latitude is greater than 23, but less than or equal to 66, then return:
+
+temperate.
+
+Add a main routine that asks the user for their current latitude, passes it to the function and 
+prints out the returned value in a sentence as shown (where 12 is the value entered by the user).
+
+>>>
+Enter your current latitiude: 12
+You are in a tropical zone.
+>>>
+
+You may assume that the user will enter a number between 0 and 90 inclusive.
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned value each time. 

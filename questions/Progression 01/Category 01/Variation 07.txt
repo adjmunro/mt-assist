@@ -1,0 +1,15 @@
+Complete the assignment statements:
+
+x = 
+y = 
+z = 
+
+So that 
+
+print(x ** 2 + y + z)
+        
+displays 60. (There are infinitely many possible answers)
+
+None of the values assigned to the variables may be zero.
+
+You will need to show a demonstrator that it works.

@@ -1,0 +1,21 @@
+Write a Python script which defines a function called name_of_capital. 
+
+The function should take an argument representing the name of a country. It should then prompt 
+the user for the capital city of that country and store it in a variable called capital_name. 
+Finally the function should finish with a statement which prints out a summary of the 
+information.
+
+For instance, if the function is called with the argument 'Argentina', it should behave as shown below
+(where 'Buenos Aires' is the value entered by the user):
+
+
+>>>
+Enter the capital of Argentina: Buenos Aires
+You claim the capital of Argentina is Buenos Aires.
+>>>
+
+In the main routine, the function should be called twice.
+
+The first time the argument should be: ' Samoa'
+
+The second time the argument should be:  'Italy'

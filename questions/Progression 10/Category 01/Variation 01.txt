@@ -1,0 +1,16 @@
+Requires File: 142.zip
+
+Write a simple GUI that calculates the total savings achieved by a single deposit (where the interest is compounded annually). 
+
+The application should have:
+
+        an entry box for the original amount in dollars
+        an entry box for the number of years over which the interest is being accrued
+        an entry box for the annual interest rate as a percent. 
+
+The total accrued amount can be calculated as:
+       
+       original_amount * (interest_rate/100 + 1 )** number_of_years
+
+The application should have the same layout as shown in the accompanying images (your program
+won't pass unless the layout is as shown in the images in the .zip file).

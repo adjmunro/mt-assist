@@ -1,0 +1,8 @@
+Enter the following code into a Python script:
+
+word_1= "welcome"
+word_2= "wind"
+word_3= "capture"
+
+Add to the script so that it prints each word separated by a space. The last word should be 
+displayed with a full stop immediately after it (no space).

@@ -1,0 +1,13 @@
+In a Python script write a function called FBI_name_badge that takes 2 arguments
+(fname and lname) and prints out the line:
+
+fname' 'lname' is an FBI Special Agent.
+
+Add a main routine that prompts the user for a first name and then a last name and stores them in
+two variables. 
+
+The main routine then calls FBI_name_badge sending it the user inputs.
+
+e.g. For the user inputs 'Fred' and 'Blogs' the program will produce the line:
+
+Fred Blogs is an FBI Special Agent.

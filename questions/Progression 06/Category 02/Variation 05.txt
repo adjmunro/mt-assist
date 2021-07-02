@@ -1,0 +1,30 @@
+Requires File: 123.zip
+
+Write a function called words_with_position_multiple_of_length that takes a single string 
+representing a filename as an argument.
+
+The function should open the file and return a string. The string should consist of every 
+word whose position in the file is a multiple of the word's length unless it has a length of 1. 
+
+
+The returned string should start with the first word that meets the criteria and each word in it 
+should be followed by a space. You must use a while loop to traverse the file contents.
+
+Remember to have all the required files in the same directory as the python file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word.
+
+Your function should pass the doctests below:
+
+def words_with_position_multiple_of_length(filename):
+    '''
+    >>> words_with_position_multiple_of_length("bleak_house_1.txt")
+    'CHAPTER In and in in if waters the of the it meet feet or waddling an lizard of in as big as one for in to their '
+    >>> words_with_position_multiple_of_length("styles.txt")
+    'home the months given no to up to him some had him He fifteen my one he his As often at old it in his inviting leave '
+    '''
+
+if __name__ == "__main__":    
+    import doctest
+    doctest.testmod(verbose = True)

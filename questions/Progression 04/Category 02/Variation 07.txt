@@ -1,0 +1,37 @@
+camelCase to python  
+
+
+According to python naming conventions each new word in an identifier is preceded by an underscore, e.g.:
+
+        student_age
+
+        calculate_tax
+
+In many other languages camel case naming style is used where each new word in an identifier starts with a capital letter 
+e.g.:
+
+        studentAge
+
+        calculateTax
+
+Write a function that takes a string representing a camel case identifier and return it in python form. 
+
+Your function should pass the following doctests:  
+    
+def camelCase_to_python(camelCaseStringId):
+    '''
+    >>> camelCase_to_python("studentAge")
+    'student_age'
+    >>> camelCase_to_python("qwertyXxx")
+    'qwerty_xxx'
+    >>> camelCase_to_python("age")
+    'age'
+    >>> camelCase_to_python("xxx")
+    'xxx'
+    >>> camelCase_to_python('whatAVeryLongMethodName')
+    'what_a_very_long_method_name'
+    '''
+        
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose = True)

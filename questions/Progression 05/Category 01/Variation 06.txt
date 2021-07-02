@@ -1,0 +1,29 @@
+Requires File: 71.zip
+
+Write a function that takes a file name as an argument. 
+
+The function should open the file (remember to have the file in the same directory as the python 
+file)
+
+The function should then return the first word that does NOT start with a capital letter. 
+If all of them do start with capital letters, it should return an empty string.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+
+The function should pass the following doctests:
+
+def find_first_non_capitalised(file_name):
+    '''
+    >>> find_first_non_capitalised('bleak_house.txt')
+    'term'
+    >>> find_first_non_capitalised('styles.txt')
+    'had'
+    >>> find_first_non_capitalised('test_4.txt')
+    ''
+    '''
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
+    

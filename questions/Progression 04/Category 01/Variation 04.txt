@@ -1,0 +1,30 @@
+Exclamation mark abuse
+
+A budding new writer, A. N. Ominous has decided to spurn the idea that exclamation marks should be used sparingly but, 
+rather, thinks that they should just be proportional to the length of the string to which they apply.
+
+Write a function called cool_bangs that takes a string. Your function should first remove the last character if it is not a letter. 
+
+It should then return that string where exclamation marks totaling half its length have been added to it. Just use int division to calculate 
+half the length.
+
+The following doctests should make it clear:
+    
+def cool_bangs(s):
+    '''
+    >>> cool_bangs('Astounding?')
+    'Astounding!!!!!'
+    >>> cool_bangs('Wow.')
+    'Wow!'
+    >>> cool_bangs('Yeah')
+    'Yeah!!'
+    >>> cool_bangs('This deserves some excitement.')
+    'This deserves some excitement!!!!!!!!!!!!!!'
+    '''
+    
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose = True)
+    
+
+NOTE: Remember to make use of string methods where suitable.

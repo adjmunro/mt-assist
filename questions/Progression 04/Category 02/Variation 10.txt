@@ -1,0 +1,29 @@
+Distinct Letters
+
+Write a function that takes a string and returns the number of distinct
+letters it contains. 
+
+Hint: Start with an empty string called distinct and as you loop concatenate
+to it only letters that the distinct string does not already contain i.e. distinct letters.
+
+It should pass the following doctests:
+
+def count_distinct_letters(s):
+    '''   
+    >>> count_distinct_letters('aaaaaa')
+1
+    >>> count_distinct_letters('1234')
+0
+    >>> count_distinct_letters('qwerty1234')
+6
+    >>> count_distinct_letters('qqwweerrttyy1234')
+6
+    '''
+    
+    distinct = "" 
+
+
+    
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

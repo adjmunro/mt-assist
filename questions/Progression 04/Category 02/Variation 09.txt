@@ -1,0 +1,22 @@
+Excited String 
+
+Write a function that takes a single string, s, as an argument and returns 
+a string in which each digit is replaced by the corresponding number of exclamation marks (!). 
+
+def excited_string(s):
+
+    '''
+    >>> excited_string("123")
+    '!!!!!!'
+    >>> excited_string(" 1 2 3 4 5")
+    ' ! !! !!! !!!! !!!!!'
+    >>> excited_string("Wow1 This2 is1 super111 exci2ting")
+    'Wow! This!! is! super!!! exci!!ting'
+    >>> excited_string("Wow1 This2 is1 super111 exciting3")
+    'Wow! This!! is! super!!! exciting!!!'
+    '''
+
+    
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

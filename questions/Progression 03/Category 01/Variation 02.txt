@@ -1,0 +1,9 @@
+In a Python script write a function called are_any_two_equal that takes 3 int 
+arguments (x, y and z).
+
+It should return True if x is equal to y, or y is equal to z or x is equal to z, 
+
+It should return False otherwise. 
+
+Add a main routine that calls the function several times and prints out the returned value each time. Pass 
+in sensible test values.

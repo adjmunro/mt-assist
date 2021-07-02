@@ -1,0 +1,21 @@
+TLA (Three letter acronyms)
+
+Write a function that takes 3 string parameters and returns a three letter acronym consisting of 
+the first characters of the strings concatenated together. Ensure that the TLA returned is upper 
+case.
+
+The function should pass the following doctests.
+
+def create_TLA(w1, w2, w3):
+    '''
+    >>> create_TLA("indignant", "otters", "ululate")
+    'IOU'
+    >>> create_TLA("Game", "of", "Thrones")
+    'GOT'
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
+
+NOTE: Remember to make use of string methods where suitable.

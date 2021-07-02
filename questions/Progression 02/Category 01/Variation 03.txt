@@ -1,0 +1,14 @@
+A 10 litre tin of emulsion paint covers approximately 130 square metres. Create a Python script 
+that asks the user for their name and then the width and height of a plain wall to be painted
+in metres. It should then calculate and display how much area they will still be able to paint 
+afterwards.  
+
+Your program should behave like this (6.5 and 3.2 are the values entered by 
+the user (Alice)):
+
+>>>
+Enter your name:  Alice
+Enter width of wall in metres: 6.5
+Enter height of wall in metres: 3.2
+Alice, you will still be able to paint approximately 109.2 square metres.
+>>>

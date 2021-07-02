@@ -1,0 +1,31 @@
+Remove Bits
+
+
+Write a function that takes a string, s,  and 4 ints, a, b, c, and d.
+
+If a, b, c and d are not in ascending order or d is greater than the last 
+valid index position in s the function should return the original string,
+otherwise the function should return a string that consists of 2 substrings of s 
+concatenated together. 
+
+The first substring should be between between a and b (inclusive),
+the second between c and d (inclusive). 
+
+
+
+
+def remove_bits(s,a,b,c,d):
+    '''
+    >>> remove_bits('0123456789', 1, 4, 6, 9)
+    '12346789'
+    >>> remove_bits('0123456789', 1, 4, 6, 10)
+    '0123456789'
+    >>> remove_bits('My dogs like jumping in the pool on a hot day', 3, 5 ,28, 30)
+    'dogpoo'
+    >>> remove_bits('My dogs like jumping in the pool on a hot day', 3, 23 ,6, 30)
+    'My dogs like jumping in the pool on a hot day'
+    '''
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

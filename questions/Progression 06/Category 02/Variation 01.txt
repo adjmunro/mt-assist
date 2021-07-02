@@ -1,0 +1,33 @@
+Requires File: 85.zip
+
+Write a function that takes a single string representing a filename as an argument and a number, 
+x.
+
+The function should then open the file and, using a while loop, return a string containing every 
+xth word. The returned string should start with the first word and each word in it should be 
+followed by a space. 
+
+Remember to have all the required files in the same directory as the python file.
+
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word.
+
+Your function should pass the doctests below:
+
+def every_xth_word(filename,  x):
+    '''
+    >>> every_xth_word('right_ho_jeeves.txt', 150)
+    '"Jeeves," out Cannes to home covered country, nothing some are sir. out '
+    >>> every_xth_word('wuthering_heights.txt', 24)
+    'Wuthering is north range it paused crumbling requested complete '
+    >>> every_xth_word('anthem.txt', 7)
+    'God the our free the her Zealand. '
+    >>> every_xth_word('styles.txt', 12)
+    'I months leave up I had my As place it leave '
+    '''
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

@@ -1,0 +1,29 @@
+Write a function called divide_or_multiply that takes 2 Booleans and 2 ints.
+
+If either (or both) of the Booleans is True the function should print out the
+full equation showing the first int divided by the second int. Otherwise the
+function should print out the full equation for the multiplication of the 2
+ints.
+
+So for example if the function is called like this:
+
+divide_or_multiply(True, False, 13, 5)
+
+the output would be:
+
+>>>
+13 / 5 is 2.6
+>>>
+
+If the function is called like this:
+
+divide_or_multiply(False, False, 6, 3)
+
+the output would be:
+
+>>>
+6 * 3 is 18
+>>>
+
+Add a main routine that calls the function several times. Use a good selection of test data. You may assume that the
+second number is never zero.

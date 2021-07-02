@@ -1,0 +1,21 @@
+Requires File: 73.zip
+
+Write a function that takes a single string representing a filename as an argument.
+
+The function should open the file and return the total number of digits and single spaces it 
+contains. (It should not count letters or other characters or other kinds of white space such 
+as line breaks or tab characters.) 
+
+def digit_space_count(filename):
+    """
+    >>> digit_space_count("anthem.txt")
+35
+    >>> digit_space_count("digits.txt")
+13
+    >>> digit_space_count("phrase.txt")
+1
+    """
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

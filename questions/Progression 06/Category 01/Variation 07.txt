@@ -1,0 +1,26 @@
+Write a function that asks the user for a full file name (including the extension) until an 
+acceptable type is entered and then returns it.  Accepted file types are: '.py', '.java', '.txt'. 
+
+You may wish to use the rfind method from str.
+
+The function should use a while loop.
+
+The function should offer sensible feedback to the user and be able to produce the behaviour 
+shown below:
+
+
+>>> file_name_1 = get_file_name()
+Please enter your file name: qwerty.docx
+.docx is not a permitted file type!
+Please enter your file name: qwerty.rtf
+.rtf is not a permitted file type!
+Please enter your file name: qwerty.TXT
+.TXT is not a permitted file type!
+Please enter your file name: qwerty.txt
+>>> file_name_1
+qwerty.txt'
+>>> file_name_2 = get_file_name()
+Please enter your file name: qwerty.two.txt
+>>> file_name_2
+qwerty.two.txt'
+>>> 

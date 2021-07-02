@@ -1,0 +1,40 @@
+Requires File: 99.zip
+
+Professor Poplex teaches several different courses. In all of them students sit a number of tests 
+each year and their scores, out of a hundred, are recorded. A special prize is awarded to those 
+students who meet certain criteria. 
+
+To get a prize students must 
+
+                achieve a certain overall total
+                achieve an A+ (90 or higher) in at least half the tests.
+
+The number of tests varies according to the course. The overall total that is required to get a 
+prize also varies according to the course.
+
+Write a function that returns the names of the students who have won a prize.
+
+It will need to take: 
+
+                the name of a file containing data for a class 
+                the overall total mark required for that course
+
+It should return a string containing the name of each qualifying student followed by a space.
+
+Each line of a data file consists of a student's name and their marks, all separated by commas. 
+
+Your program should pass the doctests as shown.
+
+def special_prize_recipients(file_name, req_total):
+    '''
+    >>> special_prize_recipients('CODI106_marks.txt', 700)
+    'Ronald Sue '
+    >>> special_prize_recipients('CODI123_marks.txt', 500)
+    'Carol '
+    >>> special_prize_recipients('FDMS101_marks.txt', 400)
+    ''
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

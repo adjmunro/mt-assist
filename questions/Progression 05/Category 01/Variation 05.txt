@@ -1,0 +1,34 @@
+Requires File: 70.zip
+
+Write a function that takes two strings as arguments, a file name and a word to find.
+
+The function should open the file (remember to have the file in the same directory as the python file).
+
+The function should then count how many times the target word appears in the file and return the answer.
+
+In order to match, the word(s) in the document do NOT need to be the same case as the argument.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word. The word 'apple' is NOT expected to match 'apple.'
+
+The function should pass the following doctests:
+
+def word_count(file_name, target):
+
+    """
+    >>> word_count("anthem.txt", "defend")
+2
+    >>> word_count("anthem.txt", "love")
+1
+    >>> word_count("anthem.txt", "banana")
+0
+    >>> word_count("anthem.txt", "god")
+3
+    >>> word_count("anthem.txt", 'go')
+0
+    """
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

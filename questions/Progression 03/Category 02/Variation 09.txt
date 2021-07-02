@@ -1,0 +1,29 @@
+The history of Britain is usually divided by historians into a series of periods.
+These are often connected with the royal house occupying the throne at the time.        
+
+The periods in modern British history can loosely be described using the
+following:
+
+Less than 1485: Pre-Tudor
+1485 - less than 1603: Tudor
+1603 - less than 1714: Stuart
+1714 - less than 1837: Georgian
+1837 - less than 1901: Victorian
+1901 - less than 1910: Edwardian
+1910+ : Windsor
+
+Write a function that takes an int argument representing a year e.g. 1642
+
+The function should return the name of the corresponding period.
+
+Add a main routine that asks the user for a year, passes it to the function and
+prints out the returned value in a sentence as shown below (where 1678 is the
+value entered by the user):
+
+>>>
+Enter a year : 1678
+1678 was in the Stuart period.
+>>>
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned value each time. 

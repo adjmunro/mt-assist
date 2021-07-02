@@ -1,0 +1,23 @@
+ Currency conversion
+
+Write a function called currency_conversion that takes two arguments: 
+        a float representing an amount of money
+        a string representing a currency. 
+
+It should then ask the user for the current exchange rate to New Zealand dollars and display the amount in New Zealand 
+dollars.
+
+When called as follows:
+
+        currency_conversion(1000.0, "British pounds")
+
+Your function should display:
+
+        Please enter the conversion rate from British pounds to $NZ: 1.88
+        1000.0 British pounds is currently 1880.0 New Zealand dollars.
+
+where 1.88 is the value entered by the user.
+
+Call the function twice in the main routine - the first time to convert 2000 US dollars, the second to convert 4000 Euros. 
+( The actual conversion rates at the time these questions were written were 1.47 and 1.68 respectively but you may 
+enter what you like so long as it is a number.)

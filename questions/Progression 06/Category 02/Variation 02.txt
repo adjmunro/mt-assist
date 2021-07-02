@@ -1,0 +1,39 @@
+Requires File: 86.zip
+
+Write a function that takes a string argument representing a filename and two int arguments, x 
+and cut_off.
+ 
+The function should then open the file and, using a while loop, return a string containing the 
+first x words that have a length greater than the cut_off number. Each word should be followed by 
+a space. If the file contains fewer than x words of sufficient length, the function should simply 
+include all the words in the file that are longer than cut_off.
+
+
+Remember to have all the required files in the same directory as the python file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word.
+
+
+Your function should pass the doctests below:   
+
+
+
+def first_x_words_longer_than(filename, x, cut_off):
+    '''
+    >>> first_x_words_longer_than('wuthering_heights.txt', 3, 8)
+    "Wuthering Heathcliff's dwelling. "
+    >>> first_x_words_longer_than('bleak_house.txt', 5, 9)
+    'Michaelmas Chancellor Implacable Megalosaurus, elephantine '
+    >>> first_x_words_longer_than('styles.txt', 6, 7)
+    'invalided spending depressing Convalescent relations Cavendish '
+    >>> first_x_words_longer_than('styles.txt', 20, 9)
+    'depressing Convalescent particularly forty-five '
+    >>> first_x_words_longer_than('styles.txt', 20, 20)
+    ''
+    '''
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose = True)

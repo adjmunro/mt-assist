@@ -1,0 +1,8 @@
+Enter the following code into a Python script:
+
+x = 20
+y = 3
+z = 7
+
+Add to the script so that it prints out the remainder when the product of x and y
+is divided by z. (Hint: use the modulus operator).

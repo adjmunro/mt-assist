@@ -1,0 +1,70 @@
+Requires File: 151.zip
+
+You have been given a file, "sports.txt". This document lists the sports played by children in a sample group.
+ 
+                - Each line represents the sports played by a single child. 
+                - The names of the sports are separated by commas. 
+
+Unfortunately this data is not quite pristine since each line may contain duplicates. E.g:
+
+                soccer,swimming,cricket,rugby,netball,rugby,fencing,archery
+
+PART 1
+
+Write a function that takes a the name of a file which is in the form described above and uses it to create a dictionary:
+
+                key -  the name of a sport
+                value -  a count of how many children in the sample group play this sport
+
+You must remove any duplicates from a line before counting.
+
+
+PART 2
+
+Write a function that takes a count dictionary like the one above and displays it as a bar graph 
+by using the "]" symbol to build the horizontal bars. (see doctests)
+
+NOTE: 
+                - each 'bar' in the graph starts with the name of the sport followed by a colon
+                - the ']' symbols start 12 spaces in from the beginning of the name of the sport
+                - the bar graph is in alphabetical order (top to bottom) 
+
+
+Your functions should pass the following doctests:
+
+def create_dict(filename):
+    '''
+    >>> d = create_dict("sports.txt")
+    >>> print(sorted(d.values())[3])
+2
+    >>> print(sorted(d.keys())[3])
+    cricket
+    >>> d['cricket']
+5
+    >>> d['archery']
+2
+    ''' 
+    
+def display_as_bar_graph(d):
+    '''
+    >>> display_as_bar_graph(create_dict("test.txt"))
+    netball:     ]]]]]]]]]]
+    >>> display_as_bar_graph(create_dict("sports.txt"))
+    archery:     ]]
+    athletics:   ]]]]
+    badminton:   ]]]
+    cricket:     ]]]]]
+    fencing:     ]
+    hockey:      ]]
+    netball:     ]]]]]]]
+    rugby:       ]]]]]]
+    rugby league:]
+    soccer:      ]]]]]
+    softball:    ]]
+    swimming:    ]]]]]]
+    tennis:      ]]]]]
+    '''
+    
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

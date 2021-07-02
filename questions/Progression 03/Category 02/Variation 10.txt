@@ -1,0 +1,43 @@
+In New Zealand speed related offences (excluding speed camera offences) attract
+demerit points. If you accumulate 100 or more active demerit points within any
+two year period, your licence will be suspended. 
+
+The demerit points given depend on the amount by which you exceed the speed
+limit:
+
+------------------------------------------------------------------------
+General description of offence                          | Demerit points
+------------------------------------------------------------------------
+Exceeding the speed limit
+        fixed by not more than 10 km/h                  |     10
+------------------------------------------------------------------------
+Exceeding the speed limit
+        by more than 10 km/h but not more than 20 km/h  |     20
+------------------------------------------------------------------------
+Exceeding the speed limit
+        by more than 20 km/h but not more than 30 km/h  |     35
+------------------------------------------------------------------------
+Exceeding the speed limit
+        by more than 30 km/h but not more than 35 km/h  |     40
+------------------------------------------------------------------------
+Exceeding the speed limit by more than 35 km/h          |     50
+------------------------------------------------------------------------
+    
+Write a function that takes 2 floats (representing the speed and the speed-limit)
+and returns the number of demerit points given in that situation.
+
+You may assume that speeds less than or equal to the speed limit will not receive
+demerit points. (This is not necessarily true in real life!)
+
+Add a main routine that asks the user for the speed and the speed limit and
+passes them to the function. Print out the returned value in a sentence as shown
+below (where 100 is the speed limit entered by the user and 123 is the speed entered by the user):
+
+>>>
+Enter the speed limit: 100
+Enter the speed: 123
+This will receive 35 demerit points
+>>>
+
+Add further statements to main to test your function with a good selection of
+hardcoded values.

@@ -1,0 +1,31 @@
+For a particular word guessing game all letters in a word should be replaced by digits.
+
+Write a function called word_to_number that takes a single string argument. The function 
+should return a string of digits.
+
+The conversion rules are the following:
+
+'a'', ''e'', ''i'', ''o'' or ''u'' maps to 0
+'b'', ''c'' or ''d'' maps to 1
+'f'', ''g'' or ''h'' maps to 2
+'j'', ''k'', or ''l'' maps to 3
+'m'', ''n'', or ''p'' maps to 4
+'q'', ''r'', or ''s'' maps to 5
+'t'', ''v'', or ''w'' maps to 6
+'x'', ''y'', or ''z'' maps to 7.
+
+The function should pass the following doctests.
+
+def word_to_number(word):
+    """
+    >>> word_to_number("apples")
+    '044305'
+    >>> word_to_number("thought")
+    '6200226'
+    >>> word_to_number("winner")
+    '604405'
+    """
+    
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

@@ -1,0 +1,40 @@
+Requires File: 77.zip
+
+Write a function called words_that_contain that takes two file names and a string. The first file 
+name is the file to be read and processed, the second is the destination file for your answer.
+
+The function should open the given file for processing and then write out to the destination file 
+every word that contains exactly the given string (i.e. it is case-sensitive), followed by a space.
+
+Remember to have all the required files in the same directory as the python file.
+
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word.
+
+Your function should pass the doctests below:
+
+def words_that_contain(file_name, destination, string):
+    >>> words_that_contain("styles.txt",'q2_answer1.txt', "th")
+    >>> sfile = open('q2_answer1.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('special_words_answer1.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    >>> words_that_contain('bleak_house.txt','q2_answer2.txt', "an")
+    >>> sfile = open('q2_answer2.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('special_words_answer2.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    """
+    
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

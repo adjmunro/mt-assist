@@ -1,0 +1,54 @@
+Requires File: 93.zip
+
+Write a function that takes 3 arguments and returns a coded string. The first argument is the 
+name of a file that contains text to be encoded using a transposition cipher. The second argument 
+is an int key and the third argument is a filler character. 
+
+To encode:
+
+Decide upon a key (which is just an int value). In the example below this is 4.
+
+Take a top-secret string to be coded e.g.
+
+        'The blue dove flies at midnight'
+
+Make the string lower case and strip out white space (see Note below).
+
+Add the filler character of your choice (in this case 'q') to make sure the length is a multiple 
+of the key:
+
+        thebluedovefliesatmidnightqq
+
+You may wish to think of the resulting string as a series of tokens that are the same length as 
+the key
+
+theb | lued | ovef | lies | atmi | dnig | htqq
+
+Build up the coded string with all the first letters of the tokens, followed by all the second 
+letters, followed by all the third letters and so on.
+
+In this example the final returned string would be:
+
+        'tloladhhuvitnteeeemiqbdfsigq'
+
+Note: To strip out white space we can split on white space (which is the default) and join with 
+the empty string:
+
+        stripped_string = ''.join(original_string.split())
+
+Remember to have all the required files in the same directory as the python file.
+
+Your function should pass the doctests provided:
+
+def transposition_encoder(file_name, key, extra_char):
+    '''
+    >>> transposition_encoder('secret_message.txt', 4, 'q')
+    'tloladhhuvitnteeeemiqbdfsigq'
+    >>> transposition_encoder('super_secret_message.txt', 6, 'e')
+    "ttdinhlbcheessulbkenvitr'eiliinocsreincwnhrd.sgeiciuue"
+    '''
+
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

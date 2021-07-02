@@ -1,0 +1,7 @@
+Enter the following code into a Python script:
+
+x = 339
+y = 40
+z = 5
+
+Add to the script so that it prints out the result of x mod y, divided by z (using int division).

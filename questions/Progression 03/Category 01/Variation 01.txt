@@ -1,0 +1,8 @@
+In a Python script write a function that takes two Boolean arguments (a and b) and returns: 
+
+Both' if both a and b are True; 
+One' if a or b is True; and 
+None' if neither are True.
+
+Add a main routine that calls the function several times with good test data, printing out the 
+returned value each time.

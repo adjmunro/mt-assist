@@ -1,0 +1,10 @@
+In a script write a function that takes four arguments, a, b, c, d, and prints the 
+sum of a raised to the b, and c raised to the power of d. 
+
+For example the function might be called like this:
+
+func_name(3,2,4,2)
+
+which would print out 25.
+
+Add a main routine that calls the function several times passing in the values of your choosing.

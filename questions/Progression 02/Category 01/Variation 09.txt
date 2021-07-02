@@ -1,0 +1,14 @@
+A group of friends are sharing the cost of a gift for another friend's birthday equally. Write a 
+python script that asks the user how many friends want to 'chip in' and the amount that they have 
+agreed each person will pay and the friends name.  Print how much they can spend on the gift. 
+
+Your program should behave like this (Where 7 friends are contributing and they each wish to spend $15.50. It 
+is Alice's birthday):
+
+
+>>>
+Whose birthday is it?:  Alice
+Enter the number of friends contributing to the present: 7
+Enter the amount you each wish to spend in dollars: 15.5
+Together you can afford a gift for Alice that costs $108.5
+>>>

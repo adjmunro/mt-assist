@@ -1,0 +1,41 @@
+Requires File: 76.zip
+
+Write a function called save_words_longer_than that takes two file names and a number 
+representing a minimum length. The first file name is the file to be read and processed, the 
+second is the destination file for your answer.
+
+The function should open the given file for processing and then write out to the destination 
+file all the words that have a length longer than or equal to the given number. Each word 
+should be followed by a space.
+
+Remember to have all the required files in the same directory as the python file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+
+Your function should pass the doctests below:
+
+def save_words_longer_than(file_name, destination, number):
+    """
+    >>> save_words_longer_than("styles.txt",'q2_answer1.txt', 6)
+    >>> sfile = open('q2_answer1.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('longer_than_answer1.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    >>> save_words_longer_than("anthem.txt",'q2_answer2.txt', 8)
+    >>> sfile = open('q2_answer2.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('longer_than_answer2.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    """
+    
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

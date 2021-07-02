@@ -1,0 +1,15 @@
+Write a function that takes a numerical course mark out of 100 and returns a letter grade. Any mark
+80 or greater is an A, 65 up to (but not including) 80 is a B, 50 up to (but not including) 65 is 
+a C, 40 up to (but not including) 50 is a D. Anything else is an F.
+
+Add a main routine that asks the user for a mark, passes it to the function and prints out the 
+returned value in a sentence as shown below (where 37 is the value entered by the user):
+
+>>>
+Enter your mark (between 0 and 100 inclusive): 37
+Your grade is F!
+>>>
+
+Add further statements to main to test your function with a good selection of hardcoded values. 
+
+You may assume that the user will enter a number between 0 and 100 inclusive.

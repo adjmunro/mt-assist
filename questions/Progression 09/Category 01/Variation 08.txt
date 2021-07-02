@@ -1,0 +1,34 @@
+Every positive integer can be decomposed into a product of prime factors. For example, 
+20 = 2*2*5. 
+
+A naive algorithm for computing the prime factors of a number is to check all the possible 
+factors from 2 to the number (including the non-prime factors). If a number is a factor, 
+then add it to a list of factors and reduce the original number by dividing by the factor. 
+Write a function that computes all the prime factors of a given number and returns those 
+factors as a list. 
+
+Your function should pass the following doctests:
+
+def prime_factors(num):
+    """
+    >>> prime_factors(2)
+    [2]
+    >>> prime_factors(5)
+    [5]
+    >>> prime_factors(10)
+    [2, 5]
+    >>> prime_factors(20)
+    [2, 2, 5]
+    >>> prime_factors(31)
+    [31]
+    >>> prime_factors(145147)
+    [173, 839]
+    >>> prime_factors(30)
+    [2, 3, 5]
+    >>> prime_factors(32)
+    [2, 2, 2, 2, 2]
+    """
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

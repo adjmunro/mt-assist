@@ -1,0 +1,18 @@
+Given the following:
+        s1 = 'What a'
+        s2 = 'very'
+        s3 = 'day'
+        s4 = ','
+        s5 = ' '
+        s6 = 'nice'
+        x = 3
+        
+Write an expression using only these variables that will evaluate to:
+
+         'What a very, very, very, nice day'
+
+You should use concatenation and any other suitable operators.
+
+Each variable must be used at least once.
+
+You will need to show a demonstrator that it works.

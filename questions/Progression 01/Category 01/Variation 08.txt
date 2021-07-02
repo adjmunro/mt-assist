@@ -1,0 +1,16 @@
+Complete the assignment statements:
+
+s1 = 
+s2 = 
+s3 = 
+
+So that 
+
+print(s1 + s2 * 6 + s3 + s2)
+
+displays
+
+Congratulations!!!!!! You have passed Progression 1!'
+
+None of the strings assigned to the variables may be empty. You will need to show a 
+demonstrator that it works.

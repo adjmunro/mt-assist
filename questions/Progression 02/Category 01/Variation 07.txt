@@ -1,0 +1,10 @@
+Write a Python script that asks the user for their name and a weight in kilograms and prints the 
+equivalent weight in pounds.(1 kilogram = 2.25 pounds). 
+
+Your program should behave like this (20.0 is the value entered by the user (Alice)):
+
+>>>
+Enter your name:  Alice
+Enter a weight in kilograms: 20.0
+Alice, 20 kilograms is 45.0 pounds.
+>>>

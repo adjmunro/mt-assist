@@ -1,0 +1,5 @@
+In a Python script write a function that takes 3 strings and returns True if all three have the 
+same length and False if they do not.
+
+Add a main routine that calls the function several times and prints out the returned value each time. Use a 
+good selection of test data.

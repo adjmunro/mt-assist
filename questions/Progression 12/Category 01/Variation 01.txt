@@ -1,0 +1,41 @@
+Requires File: 150.zip
+
+You have been given a file, "nz_towns.txt",  that contains a large (but not exhaustive) selection of New Zealand 
+towns and cities, followed by their latitude and longitude  coordinates.
+
+Remember:       latitude determines how far north or south a place is (measured from the equator)
+                        longitude determines how far east or west a place is (measured from the prime meridian in Greenwich, England)
+
+Each line of the file contains the name of the town followed by its latitude and then its longitude. These are separated by commas.
+
+Write a function that creates a dictionary:
+
+        key -  the town's name as a string
+        value -  a tuple consisting of the coordinates. Each coordinate is a float. To be consistent with common practice we need to put the latitude first.
+
+You should use the strip method to remove trailing white space from the names.
+
+
+Your function should pass the following doctests:
+
+def create_dict(filename):
+    '''
+    >>> sample_dict = create_dict("sample.txt")
+    >>> print(sample_dict)
+    {'Auckland': (-36.85, 174.76), 'Manukau': (-37.0, 174.88), 'Christchurch': (-43.53, 172.64), 'North Shore': (-36.8, 174.75)}
+    >>> d = create_dict("nz_towns.txt")
+    >>> sorted(d.keys())[19]
+    'Cheviot'
+    >>> d[sorted(d.keys())[4]][1]
+168.83
+    '''
+    
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)
+    
+Finally, in the main routine, determine and display the most westerly town in the dictionary (i.e. the one with the lowest longitude):
+
+        The most westerly New Zealand town/city we can find is ??
+
+You may, of course, write another function to do this if you wish.

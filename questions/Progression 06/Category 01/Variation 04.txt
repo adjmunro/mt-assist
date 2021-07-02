@@ -1,0 +1,21 @@
+Write a function called get_ird_number that asks the user for their IRD number until a valid one 
+is entered. IRD numbers must be either 8 or 9 digits long, with no non-digit characters.
+
+The function should use a while loop.
+
+The function should offer some feedback to the user and be able to produce the behaviour shown 
+below:
+
+>>> my_ird = get_ird_number()
+Please enter your ird number (just numbers, no spaces or slashes etc): 1234
+1234 is not a valid IRD number. Please try again.
+Please enter your ird number (just numbers, no spaces or slashes etc): 123412341234
+123412341234 is not a valid IRD number. Please try again.
+Please enter your ird number (just numbers, no spaces or slashes etc): 123-456-7
+123-456-7 is not a valid IRD number. Please try again.
+Please enter your ird number (just numbers, no spaces or slashes etc): abc
+abc is not a valid IRD number. Please try again.
+Please enter your ird number (just numbers, no spaces or slashes etc): 123456789
+>>> my_ird
+123456789'
+>>> 

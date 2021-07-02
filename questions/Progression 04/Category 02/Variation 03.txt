@@ -1,0 +1,26 @@
+Consonant to vowel ratio
+
+Write a function that takes a string and returns the ratio of consonants to vowels. Other characters should be ignored. 
+
+Note: you are not permitted to list the consonants in a string.
+
+Your function should pass the following doctests:
+
+
+def consonant_to_vowel_ratio(s):
+    '''
+    >>> consonant_to_vowel_ratio('ababab')
+1
+    >>> consonant_to_vowel_ratio('ababab??!!')
+1
+    >>> consonant_to_vowel_ratio('aabbBB')
+2
+    >>> consonant_to_vowel_ratio('The quick brown fox jumps over the lazy dog.')
+2.181818182
+    >>> consonant_to_vowel_ratio('An apple a day, if well aimed, keeps the doctor away.')
+1.352941176
+    '''
+    
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose = True)

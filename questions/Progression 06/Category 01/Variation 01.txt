@@ -1,0 +1,28 @@
+Write a function that takes an int argument, x,  and returns a string containing all the pentagonal
+numbers that are less than x, starting from 1. Each number should be followed by a space.
+
+The attached jpg file provides a visual representation of pentagonal numbers where the outlines of  
+larger and larger pentagons are overlaid but they share one vertex.
+
+The formula for a pentagonal number is (3*n**2 - n)//2
+
+Sample:
+
+n:                                    1    2      3        4       5          
+pentagonal number:      1    5      12      22     35          
+
+The function should use a while loop.
+
+The function should pass the doctests shown below:
+
+def pentagonal_numbers(x):
+    '''
+    >>> pentagonal_numbers(30)
+    '1 5 12 22 '
+    >>> pentagonal_numbers(600)
+    '1 5 12 22 35 51 70 92 117 145 176 210 247 287 330 376 425 477 532 590 '
+    '''
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

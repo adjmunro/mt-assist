@@ -1,0 +1,55 @@
+Add to the FuelTank class below so that it passes the doctests. Note the default values that are used when 
+an instance of FuelTank is made with no arguments.
+
+Add methods to:
+        initialise the new instance with:
+                the tank's id code
+                the tank's volume
+                the tank's fuel current fuel amount - NOTE: all tanks are empty when created
+                
+        return a string representation of the object
+        
+        fill the tank with a specified amount of fuel
+                        if the total amount exceeds the tank's volume: 
+                                        set the fuel amount to the volume
+                                        print an alert message (see doctests)   
+        
+        calculate the tank's remaining capacity
+        
+        use a specified amount of fuel from the tank
+                        if the specified amount exceeds or equals what is in the tank: 
+                                        set the fuel amount to zero
+                                        print an alert message and state how much fuel was provided (see doctests)
+        compare the remaining capacity of this tank to that of another tank - return a reference to the tank with the most remaining capacity
+
+
+class FuelTank:
+    '''
+    >>> test = FuelTank()
+    >>> print(test)
+    Fuel tank, 000, can contain 0.0 litres and currently holds 0.0 litres.
+    >>> tank1 = FuelTank("FT_01", 50)
+    >>> tank1.fill_tank(16)
+    >>> print(tank1.remaining_capacity())
+34
+    >>> print(tank1)
+    Fuel tank, FT_01, can contain 50.0 litres and currently holds 16.0 litres.
+    >>> tank1.fill_tank(40)
+    Alert!! Fuel spill!!
+    >>> print(tank1)
+    Fuel tank, FT_01, can contain 50.0 litres and currently holds 50.0 litres.
+    >>> tank2 = FuelTank("FT_02", 120)
+    >>> tank2.fill_tank(70)
+    >>> tank2.use_fuel(70)
+    Alert! Tank is now empty. 70.0 litres was provided.
+    >>> tank2.fill_tank(70)
+    >>> tank3 = FuelTank("FT_03", 110)
+    >>> tank3.fill_tank(65)
+    >>> print(tank2.most_remaining_capacity(tank3).id_code)
+    FT_02
+    '''
+
+
+if __name__ == "__main__":    
+    import doctest
+    doctest.testmod(verbose = True)

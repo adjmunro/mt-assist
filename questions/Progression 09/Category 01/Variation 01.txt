@@ -1,0 +1,75 @@
+Requires File: 89.zip
+
+Mr. Oldschool, a maths teacher, has some files, each containing several lines of numbers separated by 
+commas. The output from each source file should be written out to a specified destination file. 
+Each line represents an addition problem that he would like displayed as if being done manually on paper. 
+
+
+Write a function that takes the file name of a file containing multiple lines of comma separated 
+numbers and a destination file name for you to write out your answer to. The function must align 
+the numbers to the right, show the + sign and provide the answer below a line of dashes (hyphens). 
+There should be 1 space between the plus sign and the last number.
+
+So, a file containing the line:
+
+
+12,345,123,956
+
+should be written out as:
+
+12
+345
+123
+956
+-----
+1436
+
+and 
+
+12, 345, 123, 56
+
+should be written out as:
+
+12
+345
+123
+56
+-----
+536
+
+You may assume a total column width (including the + sign and space) of 5.
+
+Each total should be followed by 3 newline characters.
+
+You may encapsulate as you wish.
+
+Note: You might wish to use the format pattern '{:>5}'
+
+The function should pass the following doctests:
+
+def old_school_addition(file_name, destination):
+    '''
+    >>> import ssl
+    >>> import urllib.request
+    >>> ctx = ssl.create_default_context()
+    >>> ctx.check_hostname = False
+    >>> ctx.verify_mode = ssl.CERT_NONE
+    >>> old_school_addition('numbers1.txt', 'answer1.txt')
+    >>> file_check1 = urllib.request.urlopen('http://progress.otago.ac.nz/student/doctestFiles/old_school_addition_answer1.txt')
+    >>> text_check1 = file_check1.read().decode('utf-8')
+    >>> file_answer1 = open('answer1.txt')
+    >>> text_answer1 = file_answer1.read()
+    >>> text_answer1 == text_check1
+    True
+    >>> old_school_addition('numbers2.txt', 'answer2.txt')
+    >>> file_check2 = urllib.request.urlopen('http://progress.otago.ac.nz/student/doctestFiles/old_school_addition_answer2.txt')
+    >>> text_check2 = file_check2.read().decode('utf-8')
+    >>> file_answer2 = open('answer2.txt')
+    >>> text_answer2 = file_answer2.read()
+    >>> text_answer2 == text_check2
+    True
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

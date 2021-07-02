@@ -1,0 +1,49 @@
+Add to the LoyaltyCard class below so that it passes the doctests. Note the default values that are used when 
+an instance of LoyaltyCard is made with no arguments.
+
+Add methods to:
+        initialise the new instance with:
+                the customer's name
+                the customer's id number
+                the type of item covered by this loyalty card e.g. coffee
+                Note: the initial points value is set to 0, the number of points needed to redeem is always 6.
+        return a string representation of the object
+        add a point if they purchase an item and print a message if they now have enough points to redeem.
+        redeem their points by subtracting the amount need to redeem from their current points value and print out a 
+                message congratulating them and informing them of ther new balance.
+                If they try to redeem without enough points print out a message informing them they can't.
+
+
+class LoyaltyCard:
+    """
+    >>> test = LoyaltyCard()
+    >>> print(test)
+    X, id:0, has 0 points and must collect 6 before another free coffee.
+    >>> customer1 = LoyaltyCard("Bob", 1234, "coffee")
+    >>> print(customer1)
+    Bob, id:1234, has 0 points and must collect 6 before another free coffee.
+    >>> customer2 = LoyaltyCard("Fred", 5678, "pudding")
+    >>> print(customer2)
+    Fred, id:5678, has 0 points and must collect 6 before another free pudding.
+    >>> customer1.purchase_item()
+    >>> customer1.purchase_item()
+    >>> customer1.purchase_item()
+    >>> customer1.purchase_item()
+    >>> customer1.purchase_item()
+    >>> customer1.purchase_item()
+    Hi Bob . You can redeem your points for a free coffee now
+    >>> customer1.purchase_item()
+    Hi Bob . You can redeem your points for a free coffee now
+    >>> customer1.redeem_points()
+    Bob - congratulations on your free coffee
+    Your current points balance is: 1
+    >>> customer2.purchase_item()
+    >>> customer2.purchase_item()
+    >>> customer2.redeem_points()
+    Sorry Fred! You do not have enough points to redeem at this stage.
+    """
+
+
+if __name__ == "__main__":    
+    import doctest
+    doctest.testmod(verbose = True)

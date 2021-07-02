@@ -1,0 +1,8 @@
+Enter the following code into a Python script:
+
+x = 115
+y = 4
+z = 5
+
+Add to the script so that it prints out the remainder when x is divided by the product of y and z. 
+(Hint: use the modulus operator).

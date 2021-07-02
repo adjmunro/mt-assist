@@ -1,0 +1,18 @@
+Write a function that accepts a string and concatenates an exclamation mark to the end of it if its length is an odd number. 
+
+It should then use slice notation to return a string that consists of the second half of the string followed by the first half.
+
+
+The function should pass the following doctests.
+
+def swap_halves(s):
+    '''
+    >>> swap_halves("aaabbb")
+    'bbbaaa'
+    >>> swap_halves("aaabbbb")
+    'bbb!aaab'
+    '''
+ 
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

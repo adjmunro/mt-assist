@@ -1,0 +1,38 @@
+Gold percentages to karats
+
+Alloy metals are added to gold to increase hardness and durability. The level of pure gold is often measured in karats. 
+
+Conversion between a percentage of pure gold and karats(K):
+
+    58.33 up to and including 62.50% is 14K
+    75.00 up to and including 79.16% is 18K 
+    91.66 up to but NOT including 95.83% is 22K 
+    95.83 up to but NOT  including 99.95% is 23K 
+    99.95 up to and including 100% is 24K 
+
+Use the table above to write a function called gold_percentage_to_karats. 
+
+The function should take a float representing the percentage of pure gold. It should return a string 
+comprising the number of corresponding karats concatenated with a 'K'. If the percentage is not covered 
+in the table above simply return "undetermined".
+
+Add a main routine that asks the user for a percentage, passes it to the function and
+prints out the returned value in a sentence as shown below (where 76 is the
+value entered by the user):
+
+>>>
+Enter the percentage of the gold : 76
+76.0% pure gold in karats is 18K.
+>>>
+
+Alternatively (where 85.2 is the value entered by the user):
+
+>>>
+Enter the percentage of the gold : 85.2
+85.2% pure gold in karats is undetermined.
+>>>
+
+You may assume the user will enter a number between 0 and 100 inclusive.
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned value each time. 

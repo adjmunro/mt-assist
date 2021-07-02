@@ -1,0 +1,34 @@
+Caesar Cipher
+
+Write a function that takes a string and an int. It should return an encoded string using a 
+simple Caesar cipher.
+
+Note: The ord function takes a single character string and returns its equivalent ordinal number. 
+The chr function takes an int and returns the one-character string that has that ordinal number.
+
+So 
+
+ord('a') gives 97
+
+chr(97) gives 'a'
+
+chr (ord('a') + 2) gives 'c'
+
+Iterate through the string , incrementing the ordinal number of each character by the int parameter and 
+converting back to a char. Spaces, however, should remain as spaces.
+
+The function should pass the following doctests.
+
+def caesar_cipher(s, i):
+    '''
+    >>> caesar_cipher("abcd", 2)
+    'cdef'
+    >>> caesar_cipher("The quick", 3)
+    'Wkh txlfn'
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
+
+  

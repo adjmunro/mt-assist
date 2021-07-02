@@ -1,0 +1,13 @@
+Create a Python script that firstly asks the user for their name. 
+It then asks the user for two numbers and prints the product of those numbers. 
+
+
+Your program should behave like this (17.5  and 123 are the numbers 
+entered by the user (Alice):
+
+>>>
+Enter your name:  Alice
+Enter the first number: 17.5
+Enter the second number: 123
+Alice, the answer is: 2152.5
+>>>

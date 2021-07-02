@@ -1,0 +1,10 @@
+Given the following:
+
+        n1 = 7
+        n2 = 23
+        n3 = 2
+        
+Write an expression using only these variables (and any operators that you need) that will
+evaluate to 64. (Each variable must be used at least once).
+
+You will need to show a demonstrator that it works.

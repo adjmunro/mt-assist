@@ -1,0 +1,25 @@
+Write a function that takes a string argument and an int argument. The function should return a 
+new string derived from the argument string but where a character is removed if its ord is a 
+multiple of the int.
+
+Remember: Each Unicode character has a corresponding integer. This int can be found using the ord 
+function e.g.
+
+    ord('a') returns 97
+    ord('b') returns 98
+    ord('z') returns 122
+    ord('A') returns 65
+    ord('Z') returns 90
+
+
+The function should pass the following doctests.
+
+def remove_ord_multiples(string, x):
+    '''
+    >>> remove_ord_multiples("abcde", 2)
+    'ace'
+    >>> remove_ord_multiples("abcdefghijklmnop", 3)
+    'abdeghjkmnp'
+    >>> remove_ord_multiples("Ant, Bear, Cat, Dog, Elephant, Frog", 5)
+    't, Bear, Cat, Dog, Elephat, rog'
+    '''

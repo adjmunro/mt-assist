@@ -1,0 +1,21 @@
+Digits First
+
+Write a function which takes a string argument and returns a string where
+all the digits of the original string are at the beginning of the string, and
+the other characters follow the digits. All spaces are removed.
+
+def numbers_up(s):
+    '''
+    >>> numbers_up('My Dad turned 50')
+    '50MyDadturned'
+    >>> numbers_up('Show is on 12th June 2019')
+    '122019ShowisonthJune'
+    >>> numbers_up('30 days hath September')
+    '30dayshathSeptember'
+    >>> numbers_up('6###6&&&6')
+    '666###&&&'
+    '''
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

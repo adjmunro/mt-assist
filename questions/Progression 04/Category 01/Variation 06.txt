@@ -1,0 +1,18 @@
+Write a function that takes a string and returns a string consisting of the last 2 characters 
+followed by the first 2. If the string has fewer than 4 characters then return the whole string.
+
+The function should pass the following doctests.
+
+def two_and_two(string):
+    '''
+    >>> two_and_two('The quick brown fox')
+    'oxTh'
+    >>> two_and_two('We scream for ice cream')
+    'amWe'
+    >>> two_and_two('Sky')
+    'Sky'
+    '''
+    
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

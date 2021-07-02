@@ -1,0 +1,33 @@
+Write a function that takes a string as an argument and returns the phone number 
+corresponding to that string as the result.
+
+The phone number should also be a string.
+
+The conversion rules are the standard word to phone number rules:
+
+
+a', 'b' or 'c' maps to 2
+d', 'e' or 'f' maps to 3
+g', 'h' or 'i' maps to 4
+j', 'k', or 'l' maps to 5
+m', 'n', or 'o' maps to 6
+p', 'q', 'r', or 's' maps to 7
+t', 'u', or 'v' maps to 8
+w', 'x', 'y', or 'z' maps to 9.
+
+The function should pass the following doctests.
+
+
+def word_to_phone_number(word):
+    """
+    >>> word_to_phone_number("apples")
+    '277537'
+    >>> word_to_phone_number("thought")
+    '8468448'
+    >>> word_to_phone_number("winner")
+    '946637'
+    """
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

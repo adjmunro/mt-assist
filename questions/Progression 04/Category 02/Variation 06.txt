@@ -1,0 +1,29 @@
+Check Passcode
+
+Write a function that takes a string of digits, representing a passcode, and 2 ints, x and y. 
+It should return True if the passcode is valid and False if it is not. To be valid the 
+passcode must have a length that is between the 2 ints (inclusive) and the sum of the individual 
+digits must be a multiple of the length.
+
+You may trust that the string argument contains only digits. You may also trust that 
+y is greater than or equal to x.
+
+The function should pass the following doctests.
+
+def check_code(code_string, x, y):
+    '''
+    >>> check_code("234", 4, 7)
+    False
+    >>> check_code("234", 3, 7)
+    True
+    >>> check_code("2365", 2, 7)
+    True
+    >>> check_code("2365", 2, 3)
+    False
+    >>> check_code("5683459", 6, 10)
+    False
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

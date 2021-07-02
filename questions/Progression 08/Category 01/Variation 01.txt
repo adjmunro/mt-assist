@@ -1,0 +1,80 @@
+Write a definiton for a class named Student with the following methods:
+        An init method that:
+                initialises  the Student's name (which is a string)
+                initialises the students id number (which is an int)
+                initialises the students current papers (which is a list of strings - the default is an empty list)
+
+                NOTE the other default values in the doctests below
+
+        An add_paper method that takes a string representing a new paper and appends it to the student's list of papers. 
+        It should first check that the paper is not already in the list and print out a message if it is - see doctests below for details.
+
+        A remove_paper method that takes a string representing the paper to be dropped and removes it from the student's list of papers.
+        It should first check that the paper is already in the list and print out a message if it is not- see doctests below for details.
+
+        A str method - see doctests below for details.
+
+Write a second definition for a class named HallOfResidence with the following methods:
+
+        An init method that:
+                initialises the name of the hall (which is a string)
+                initialises the maximum number of students that the hall can accommodate (which is an int)
+                intialises the students currently residing at the hall (which is a list of Student objects - the default is an empty list)
+                initialises a constant called self.FULL_TIME to 3 - this represents the minimum number of papers that is considered full time study
+
+                NOTE the other default values in the doctests below
+
+        An add_student method that takes a student argument and adds the Student to the list of current students. It should first 
+        check that hall is not already full and print a message if it is - see doctests below for details.
+
+        An audit_students method that checks each student to see if they are actually studying full time (i.e enrolled in 3 or more papers)
+        and prints out a message for each one that isn't - see doctests below for details.
+         
+        A str method - see doctests below for details.
+
+
+
+You should develop your classes incrementally. The final program should pass the doctests provided below:
+
+class Student:
+
+class HallOfResidence:
+    '''
+    >>> a= Student("Joe", 1234567, ["COMP101", "COMP112", "COMP150"])
+    >>> print(a)
+    Joe, 1234567: COMP101, COMP112, COMP150
+    >>> b = Student()
+    >>> print(b)
+    Unknown, 999999
+    >>> b.name = "Felicity"
+    >>> b.id = 4560987
+    >>> b.add_paper("COMP101")
+    >>> b.add_paper("FREN101")
+    >>> b.add_paper("PSYC101")
+    >>> b.add_paper("MATH101")
+    >>> b.add_paper("COMP101")    
+    Felicity already appears to be taking COMP101.
+    >>> b.remove_paper("CHEM101")
+    Felicity is not currently taking CHEM101.
+    >>> print(b)
+    Felicity, 4560987: COMP101, FREN101, PSYC101, MATH101
+    >>> bay_view = HallOfResidence()
+    >>> print(bay_view)
+    Not registered has rooms for 0 full time students and currently houses 0
+    >>> bay_view.name = "Bay View: Otago"
+    >>> bay_view.add_student(b)
+    Sorry but Bay View: Otago is currently at full capacity.
+    >>> c = Student("Bob", 22334455, ["GEOG101", "MATH101", "PHYS101"])
+    >>> c.remove_paper("PHYS101")
+    >>> d = Student("Sajida", 6758392, ["GEOG101", "MATH101", "PHYS101"])
+    >>> e = Student("Taine", 1294000, ["GEOG101", "MATH101", "PHYS101"])
+    >>> mount_view = HallOfResidence("Mountain View: Otago", max_students = 120, students = [a,b,c,d,e])
+    >>> print(mount_view)
+    Mountain View: Otago has rooms for 120 full time students and currently houses 5
+    >>> mount_view.audit_students()
+    Bob does not appear to be currently undertaking full time study.
+    '''
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

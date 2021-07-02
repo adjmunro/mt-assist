@@ -1,0 +1,10 @@
+Given the following:
+
+        x = 13
+        y = 5
+        z = 3
+
+Write an expression using only these variables (and any operators that you need) that will 
+evaluate to 73. (Each variable must be used at least once).
+
+You will need to show a demonstrator that it works.

@@ -1,0 +1,41 @@
+Requires File: 100.zip
+
+Write a function that takes 
+                - the name of a file containing data about cities. 
+                - the name of a destination file to which output is written
+
+Each line of the data file contains the name of a city, the country it is in and its population. 
+These pieces of information are separated by commas. At the moment the cities are in alphabetical
+order. Your function should write the same information to the destination file but with the 
+cities arranged in descending order of population. 
+
+Each line should still be in the order of 
+                            
+        'city, country, population'
+
+Note - the population should NOT be followed by a comma
+     - the destination file does finish with a blank line
+
+Your function should pass the following doctests:
+
+def order_by_population(file_name, destination_file):
+    '''
+    >>> order_by_population('world_cities.txt', 'world_cities_by_pop.txt')
+    >>> your_file1 = open('world_cities_by_pop.txt')
+    >>> our_file1 = open('world_cities_by_pop_answer.txt')
+    >>> your_file1.read()== our_file1.read()
+    True
+    >>> order_by_population('nz_cities.txt', 'nz_cities_by_pop.txt')
+    >>> your_file2 = open('nz_cities_by_pop.txt')
+    >>> our_file2 = open('nz_cities_by_pop_answer.txt')
+    >>> your_file2.read()== our_file2.read()
+    True
+    >>> your_file1.close()
+    >>> our_file1.close()
+    >>> your_file2.close()
+    >>> our_file2.close()
+    '''
+
+if __name__ == '__main__':
+    import doctest
+    doctest.testmod(verbose = True)

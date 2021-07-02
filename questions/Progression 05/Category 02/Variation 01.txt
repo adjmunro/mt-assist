@@ -1,0 +1,54 @@
+Requires File: 74.zip
+
+Write a function called save_words_starting_with that takes two file names and a letter. 
+The first file name is the file to be read and processed, the second is the destination 
+file for your answer.
+
+The function should open the given file for processing and then write out to the 
+destination file every word which starts with the letter argument, followed by a space. 
+It should include words that start with both the upper case and lower case version of the 
+letter.
+
+Remember to have all the required files in the same directory as the python file.
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part
+of the word.
+
+Your function should pass the doctests below:
+
+def save_words_starting_with(file_name, destination, letter):
+    """
+    >>> save_words_starting_with("anthem.txt",'q2_answer1.txt', 'd')
+    >>> sfile = open('q2_answer1.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('save_words_answer1.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    >>> save_words_starting_with("anthem.txt",'q2_answer2.txt', 'g')
+    >>> sfile = open('q2_answer2.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('save_words_answer2.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    True
+    >>> save_words_starting_with("styles.txt",'q2_answer2.txt', 'g')
+    >>> sfile = open('q2_answer2.txt')
+    >>> text_s = sfile.read()
+    >>> cfile = open('save_words_answer2.txt')
+    >>> text_c = cfile.read()
+    >>> sfile.close()
+    >>> cfile.close()
+    >>> text_s == text_c
+    False
+    """
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
+    

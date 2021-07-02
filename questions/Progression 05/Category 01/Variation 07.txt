@@ -1,0 +1,26 @@
+Requires File: 72.zip
+
+Write a function that takes a file name and two bigrams as arguments. A bigram is a sequence of any two characters (for example, 'ch').
+
+The function should open the file (remember to have the file in the same directory as the python file)
+
+The function should count and return the number of words that contain one or both of the bigrams.
+
+The function should include capitalised or partially capitalised versions of the bigrams in the count.
+
+The function should pass the following doctests:
+
+def count_words_with_bigrams(file_name, bigram1, bigram2):
+    '''
+    >>> count_words_with_bigrams('bleak_house.txt', 'th', 'ch')
+415
+    >>> count_words_with_bigrams('styles.txt', 'th', 'ch')
+9
+    >>> count_words_with_bigrams('test_1.txt', 'th', 'ch')
+4
+    '''
+    
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

@@ -1,0 +1,5 @@
+Enter the following code into a Python script:
+
+x =  "Dog"
+
+Add to the script so that it prints out the value of x followed by the type of the variable x. 

@@ -1,0 +1,13 @@
+Create a Python script that asks the user for their name and two numbers - the cost of an 
+item that they wish to purchase and the number of months over which they wish to spread the 
+interest-free payments. 
+
+It should then print how much they will have to pay per month. Your program should behave 
+like this ('Alice', 3000.0 and 30 are the values entered by the user):
+
+>>>
+Enter your name:  Alice
+Enter the cost of the item in dollars: 3000.0
+Enter how many months: 30
+Alice you will have to pay $100.0 per month.
+>>>

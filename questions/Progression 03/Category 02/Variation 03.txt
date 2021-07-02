@@ -1,0 +1,24 @@
+The magnitude of an earthquake can be described using the following:
+
+0 to less than 5: Light
+5.0 - less than 6: Moderate
+6.0 - less than 7: Strong
+7.0 +: Major
+
+In a Python script write a function that takes a single argument indicating the magnitude of an 
+earthquake. 
+
+The function should return the word describing the magnitude of the earthquake.
+
+Add a main routine that asks the user for a magnitude, passes it to the function and prints out 
+the returned value in a sentence as shown below (Where 3.3 is the value entered by the user):
+
+>>>
+Enter magnitude: 3.3
+An earthquake of magnitude 3.3 is Light.
+>>>
+
+You may assume that the user will enter a non-negative number.
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned value each time. 

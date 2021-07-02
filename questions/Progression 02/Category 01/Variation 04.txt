@@ -1,0 +1,12 @@
+Create a python script that asks the user their name and how much a house costs and how much they 
+have as a deposit. Calculate and display how much they have to borrow as a percentage. 
+
+Your program should behave like this (100000.0 and 30000.0 are the values entered by the user 
+(Alice)):
+
+>>>
+Enter your name:  Alice
+Enter price of the house: 100000.0
+Enter amount of deposit: 30000.0
+Alice, you will have to borrow 70.0% of the cost.
+>>>

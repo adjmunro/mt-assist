@@ -1,0 +1,39 @@
+Requires File: 87.zip
+
+Write a function called words_containing_previous_word that takes a single string representing a filename as an argument.
+
+The function should open the file and, using a while loop, return a string consisting of every 
+word that contains the word that precedes it in the file unless the previous word has a length of only 1. 
+
+E.g if the file contains the text:
+
+         in inward inward inwardly inner a apple
+
+the returned string would be:
+
+        'inward inward inwardly '
+
+The returned string should start with the first word that meets the criteria and each word in it should be followed by a space. 
+If no word in the file contains the previous word,  the function should return an empty string. 
+
+Remember to have all the required files in the same directory as the python file.
+
+
+Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+of the word.
+
+Your function should pass the doctests below:
+
+def words_containing_previous_word(filename):
+    '''
+    >>> words_containing_previous_word("bleak_house.txt")
+    "Lincoln's elephantine Lincoln's vain cross-bills, other grandmothers; "
+    >>> words_containing_previous_word("styles.txt")
+    ''
+    >>> words_containing_previous_word("q87_test.txt")
+    'inward inwardly '
+    '''
+
+if __name__ == "__main__":    
+    import doctest
+    doctest.testmod(verbose = True)

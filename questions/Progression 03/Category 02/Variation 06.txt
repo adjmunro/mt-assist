@@ -1,0 +1,28 @@
+Write a function called calc_interest_rate which takes 2 arguments:
+
+        a float representing an amount being borrowed
+
+        a Boolean representing whether the loan is secured 
+                                (True if it is and False if it is not)
+
+Starting from a base rate of 15.0% the function should calculate and return the actual interest rate which is calculated as follows:
+
+        for an amount over 10,000 the rate is reduced by 1%  unless the amount is over 100,000 in which case it is reduced by 2%.
+
+        the rate for a secured loan is reduced by 2%
+
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned interest rate each time. 
+
+When called as follows:
+
+calc_interest_rate(10001, False)
+
+it should return 14.0.
+
+When called as follows:
+
+calc_interest_rate(500000, True)
+
+it should return 11.0.

@@ -1,0 +1,13 @@
+Create a Python script that asks the user for a name and then asks for a number representing how many times the  name should
+be printed. It should then create and print a string with the name and an exclamation mark repeated the correct
+number of times. 
+
+You may assume the user will enter an int for the number value.
+
+Your program should behave like this (Bob and 3 are the values entered by the user):
+
+>>>
+Enter your name: Bob
+Enter how many: 3
+Bob!Bob!Bob!
+>>>

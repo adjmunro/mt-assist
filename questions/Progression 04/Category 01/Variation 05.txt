@@ -1,0 +1,21 @@
+Remove middle
+
+Write a function that takes a string and uses slice notation to return a string with the middle 
+character (or the middle 2 characters if its length is even) removed.
+
+The doctests below should make it clear.
+
+def remove_middle(string):
+    '''
+    >>> remove_middle('abcdef')
+    'abef'
+    >>> remove_middle('abcde')
+    'abde'
+    >>> remove_middle('ab')
+    ''
+    >>> remove_middle('a')
+    ''
+    '''
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

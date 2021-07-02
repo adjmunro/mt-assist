@@ -1,0 +1,18 @@
+Write a function that takes a string and 2 ints representing indexes and returns a string with 
+the section between the 2 indexes removed. The removed section should include the first index 
+and go up to but not including the second. You may assume the two ints are not out of range. The doctests below should make it clear.
+
+The function should pass the following doctests.
+
+def remove_slice(s, num1, num2):
+    '''
+    >>> remove_slice("0123456789", 2, 8)
+    '0189'
+    >>> remove_slice("aaabbc", 3, 5)
+    'aaac'
+    >>> remove_slice("We love vanilla beans!", 8, 16)
+    'We love beans!'
+    '''
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

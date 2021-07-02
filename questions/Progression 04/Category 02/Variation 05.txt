@@ -1,0 +1,46 @@
+Check Id Number
+
+Write a function that takes a string representing an id and returns True if the string is 
+considered 'valid' and False if it is not. An id string is considered to be valid if it 
+is: 
+- at least 3 characters long and 
+#NAME?
+
+
+E.g.
+
+        "abc" is considered to be valid since
+        (97 + 98 + 99) / 3 has a remainder of 0
+
+        "wxyz" is not considered to be valid since 
+        (119 + 120 + 121 + 122) / 4 has a remainder of 2
+
+Remember: Each Unicode character has a corresponding integer. This int can be found using the ord 
+function e.g.
+
+    ord('a') returns 97
+    ord('b') returns 98
+    ord('z') returns 122
+    ord('A') returns 65
+    ord('Z') returns 90
+
+The function should pass the following doctests.
+
+
+def check_sum(id_string):
+    '''
+    >>> check_sum("abcde")
+    True
+    >>> check_sum("agbf")
+    True
+    >>> check_sum("QWERTY")
+    True
+    >>> check_sum("1234")
+    False
+    >>> check_sum("ac")
+    False
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

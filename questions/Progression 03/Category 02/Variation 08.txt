@@ -1,0 +1,31 @@
+Based on a simplified Beaufort scale, the table below describes wind conditions:
+
+               Wind speed (km/h)                                  Description
+        
+                Less than 1                                         calm
+
+                1 or more but less than 50                          breezy
+                
+                50 or more but less than 89                         gale
+
+                89 or more but less than 118                        storm
+                
+                118 or more                                         hurricane
+                
+
+In a Python script write a function that takes a single argument indicating the wind speed in 
+kilometres per hour and returns the appropriate word.
+
+Add a main routine that asks the user for the current wind speed, passes it to the function and 
+prints out the returned value, including it in a sentence as shown (where 123 is the value entered by the user and 
+hurricane' is the value returned from the function).   
+
+>>>
+Enter the current wind speed: 123
+Hmmm, you are currently experiencing hurricane conditions.
+>>>
+
+You may assume that the user will enter a non-negative number.
+
+Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+test data and print out the returned value each time. 

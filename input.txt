@@ -1,0 +1,3198 @@
+1	1	1		Given the following:
+				
+				        x = 13
+				        y = 5
+				        z = 3
+				
+				Write an expression using only these variables (and any operators that you need) that will 
+				evaluate to 73. (Each variable must be used at least once).
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	2		Given the following:
+				
+				        n1 = 7
+				        n2 = 23
+				        n3 = 2
+				        
+				Write an expression using only these variables (and any operators that you need) that will
+				evaluate to 64. (Each variable must be used at least once).
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	3		Given the following:
+				
+				        a = 11
+				        b = 4
+				        c = 8
+				
+				Write an expression using only these variables (and any operators that you need) that will 
+				evaluate to 130. (Each variable must be used at least once).
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	4		Given the following:
+				
+				        s1 = 'hello'
+				        s2 = 'to' 
+				        s3 = 'you'
+				        s4=  ' '
+				        s5 = '!'
+				        n = 2
+				        
+				Write an expression using only these variables that will evaluate to:
+				
+				         'hello to you! hello to you! ' 
+				
+				You should use concatenation and any other suitable operators.
+				
+				Each variable must be used at least once.
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	5		Given the following:
+				        s1 = 'What a'
+				        s2 = 'very'
+				        s3 = 'day'
+				        s4 = ','
+				        s5 = ' '
+				        s6 = 'nice'
+				        x = 3
+				        
+				Write an expression using only these variables that will evaluate to:
+				
+				         'What a very, very, very, nice day'
+				
+				You should use concatenation and any other suitable operators.
+				
+				Each variable must be used at least once.
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	6		Given the following:
+				
+				s1 = 'Aussie'
+				s2 = 'Oy'
+				s3 = '!'
+				s4 = ' '
+				x = 3
+				        
+				Write an expression using only these variables that will evaluate to:
+				        
+				         'Aussie! Aussie! Aussie! Oy! Oy! Oy! '
+				
+				You should use concatenation and any other suitable operators.
+				
+				Each variable must be used at least once.
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	7		Complete the assignment statements:
+				
+				x = 
+				y = 
+				z = 
+				
+				So that 
+				
+				print(x ** 2 + y + z)
+				        
+				displays 60. (There are infinitely many possible answers)
+				
+				None of the values assigned to the variables may be zero.
+				
+				You will need to show a demonstrator that it works.
+				
+1	1	8		Complete the assignment statements:
+				
+				s1 = 
+				s2 = 
+				s3 = 
+				
+				So that 
+				
+				print(s1 + s2 * 6 + s3 + s2)
+				
+				displays
+				
+				Congratulations!!!!!! You have passed Progression 1!'
+				
+				None of the strings assigned to the variables may be empty. You will need to show a 
+				demonstrator that it works.
+				
+1	2	1		Enter the following code into a Python script:
+				
+				x =  "Dog"
+				
+				Add to the script so that it prints out the value of x followed by the type of the variable x. 
+				
+1	2	2		Enter the following code into a Python script:
+				
+				word_1= "severe"
+				word_2= "delegate"
+				
+				Add to the script so that it prints the result of word_1 concatenated with word_2 with a hyphen 
+				in the middle (no spaces).
+				
+1	2	3		Enter the following code into a Python script:
+				
+				word_1= "welcome"
+				word_2= "wind"
+				word_3= "capture"
+				
+				Add to the script so that it prints each word separated by a space. The last word should be 
+				displayed with a full stop immediately after it (no space).
+				
+1	3	1		Enter the following code into a Python script:
+				
+				x = 20
+				y = 3
+				z = 7
+				
+				Add to the script so that it prints out the remainder when the product of x and y
+				is divided by z. (Hint: use the modulus operator).
+				
+1	3	2		Enter the following code into a Python script:
+				
+				x = 339
+				y = 40
+				z = 5
+				
+				Add to the script so that it prints out the result of x mod y, divided by z (using int division).
+				
+1	3	3		Enter the following code into a script:
+				
+				x = 3
+				y = 4
+				z = 10
+				
+				Add code to print the remainder when x raised to the power of y is divided by z. (Hint: use the modulus operator).
+				
+1	3	4		Enter the following code into a Python script:
+				
+				n1 = 39
+				n2 = 4
+				n3 = 5
+				
+				Add to the script so that it prints out n3 multiplied by the result of n1 mod n2.
+				
+1	3	5		Enter the following code into a Python script:
+				
+				x = 115
+				y = 4
+				z = 5
+				
+				Add to the script so that it prints out the remainder when x is divided by the product of y and z. 
+				(Hint: use the modulus operator).
+				
+2	1	1		Create a Python script that firstly asks the user for their name. 
+				It then asks the user for two numbers and prints the product of those numbers. 
+				
+				
+				Your program should behave like this (17.5  and 123 are the numbers 
+				entered by the user (Alice):
+				
+				>>>
+				Enter your name:  Alice
+				Enter the first number: 17.5
+				Enter the second number: 123
+				Alice, the answer is: 2152.5
+				>>>
+				
+2	1	2		Create a Python script that asks the user for a name and then asks for a number representing how many times the  name should
+				be printed. It should then create and print a string with the name and an exclamation mark repeated the correct
+				number of times. 
+				
+				You may assume the user will enter an int for the number value.
+				
+				Your program should behave like this (Bob and 3 are the values entered by the user):
+				
+				>>>
+				Enter your name: Bob
+				Enter how many: 3
+				Bob!Bob!Bob!
+				>>>
+				
+2	1	3		A 10 litre tin of emulsion paint covers approximately 130 square metres. Create a Python script 
+				that asks the user for their name and then the width and height of a plain wall to be painted
+				in metres. It should then calculate and display how much area they will still be able to paint 
+				afterwards.  
+				
+				Your program should behave like this (6.5 and 3.2 are the values entered by 
+				the user (Alice)):
+				
+				>>>
+				Enter your name:  Alice
+				Enter width of wall in metres: 6.5
+				Enter height of wall in metres: 3.2
+				Alice, you will still be able to paint approximately 109.2 square metres.
+				>>>
+				
+2	1	4		Create a python script that asks the user their name and how much a house costs and how much they 
+				have as a deposit. Calculate and display how much they have to borrow as a percentage. 
+				
+				Your program should behave like this (100000.0 and 30000.0 are the values entered by the user 
+				(Alice)):
+				
+				>>>
+				Enter your name:  Alice
+				Enter price of the house: 100000.0
+				Enter amount of deposit: 30000.0
+				Alice, you will have to borrow 70.0% of the cost.
+				>>>
+				
+2	1	5		Create a Python script that asks the user for their name and two numbers - the cost of an 
+				item that they wish to purchase and the number of months over which they wish to spread the 
+				interest-free payments. 
+				
+				It should then print how much they will have to pay per month. Your program should behave 
+				like this ('Alice', 3000.0 and 30 are the values entered by the user):
+				
+				>>>
+				Enter your name:  Alice
+				Enter the cost of the item in dollars: 3000.0
+				Enter how many months: 30
+				Alice you will have to pay $100.0 per month.
+				>>>
+				
+2	1	6		Create a Python script that asks the user for their name and then two numbers, the cost 
+				of an item that they wish to purchase and how much they wish to pay per month. Calculate 
+				and print how many months it will take for them to pay off the item (interest-free and with 
+				no deposit). 
+				
+				Your program should behave like this (3000.0 and 30.0 are the values entered by the user):
+				
+				>>>
+				Enter your name:  Alice
+				Enter the cost of the item in dollars: 3000.0
+				Enter amount you wish to pay per month (in dollars): 30.0
+				Alice, you will take 100.0 months to pay this off.
+				>>>
+				
+2	1	7		Write a Python script that asks the user for their name and a weight in kilograms and prints the 
+				equivalent weight in pounds.(1 kilogram = 2.25 pounds). 
+				
+				Your program should behave like this (20.0 is the value entered by the user (Alice)):
+				
+				>>>
+				Enter your name:  Alice
+				Enter a weight in kilograms: 20.0
+				Alice, 20 kilograms is 45.0 pounds.
+				>>>
+				
+2	1	8		A group of friends are pooling equal amounts of their money to buy a gift for another friend’s 
+				birthday. Write a python script that asks the user for the name of the friend and then how 
+				many friends want to 'chip in' and the total price of the gift they wish to purchase.  Print 
+				how much each person has to pay if they split the cost evenly. 
+				
+				Your program should behave like this ('Bill', 6 and 129.0 are the values entered by the user):
+				
+				>>>
+				Whose birthday is it?: Bill
+				Enter the number of friends contributing to the present: 6
+				Enter the total amount you wish to spend in dollars: 129.0
+				Each friend needs to pay $21.5 towards the present for Bill
+				>>>
+				
+2	1	9		A group of friends are sharing the cost of a gift for another friend’s birthday equally. Write a 
+				python script that asks the user how many friends want to 'chip in' and the amount that they have 
+				agreed each person will pay and the friends name.  Print how much they can spend on the gift. 
+				
+				Your program should behave like this (Where 7 friends are contributing and they each wish to spend $15.50. It 
+				is Alice's birthday):
+				
+				
+				>>>
+				Whose birthday is it?:  Alice
+				Enter the number of friends contributing to the present: 7
+				Enter the amount you each wish to spend in dollars: 15.5
+				Together you can afford a gift for Alice that costs $108.5
+				>>>
+				
+2	2	1		 Currency conversion
+				
+				Write a function called currency_conversion that takes two arguments: 
+				        a float representing an amount of money
+				        a string representing a currency. 
+				
+				It should then ask the user for the current exchange rate to New Zealand dollars and display the amount in New Zealand 
+				dollars.
+				
+				When called as follows:
+				
+				        currency_conversion(1000.0, "British pounds")
+				
+				Your function should display:
+				
+				        Please enter the conversion rate from British pounds to $NZ: 1.88
+				        1000.0 British pounds is currently 1880.0 New Zealand dollars.
+				
+				where 1.88 is the value entered by the user.
+				
+				Call the function twice in the main routine - the first time to convert 2000 US dollars, the second to convert 4000 Euros. 
+				( The actual conversion rates at the time these questions were written were 1.47 and 1.68 respectively but you may 
+				enter what you like so long as it is a number.)
+				
+2	2	2		In a script write a function that takes four arguments, a, b, c, d, and prints the 
+				sum of a raised to the b, and c raised to the power of d. 
+				
+				For example the function might be called like this:
+				
+				func_name(3,2,4,2)
+				
+				which would print out 25.
+				
+				Add a main routine that calls the function several times passing in the values of your choosing.
+				
+2	2	3		In a script write a function that takes four arguments x, y, z, p and prints the
+				average of x, y and z, raised to the power of p.
+				  
+				Call the function from the main routine. For example the function could be called like this:
+				
+				func_name(7,3,8,4)
+				
+				which should print out 1296.0
+				
+				Add a main routine that calls the function several times passing in values of your choosing.
+				
+2	2	4		In a Python script write a function called FBI_name_badge that takes 2 arguments
+				(fname and lname) and prints out the line:
+				
+				fname' 'lname' is an FBI Special Agent.
+				
+				Add a main routine that prompts the user for a first name and then a last name and stores them in
+				two variables. 
+				
+				The main routine then calls FBI_name_badge sending it the user inputs.
+				
+				e.g. For the user inputs 'Fred' and 'Blogs' the program will produce the line:
+				
+				Fred Blogs is an FBI Special Agent.
+				
+2	2	5		The story goes that as a child, the mathemetician Carl Gauss(1777 - 1855) was set the task of adding up the numbers 
+				from one to a hundred. Much to his teacher's astonishment (and possibly annoyance) he solved it in a minute. Young Carl 
+				had realised that rather than add 1 + 2 + 3 + .. + 99 + 100, he could form 50 equal pairs:
+				
+				1              +              100               = 101
+				  2            +           99           = 101
+				    3          +        98              = 101
+				
+				
+				And so on. This becomes a simple multiplication:
+				
+				50 * 101 = 5050
+				
+				Although this technique can be used with any starting point we will keep it simple and always start from one.
+				
+				Write a function, add_sequence, that takes an int, upper_limit, and prints out the sum of all the numbers from 1 up to and
+				including upper_limit using Gauss's formula which:
+				
+				                divides the upper limit by 2 (using floating point division)
+				
+				                multiplies that number by the upper limit plus one 
+				                
+				
+				When called as follows:
+				                add_sequence(15)
+				
+				Your function should display the result:
+				
+				                The sum of all the integers between 1 and 15 inclusive is 120.
+				
+				Note: the result is displayed as an int.
+				
+				In the main routine ask the user to enter a number. Call the function passing in the number obtained from the user.
+				You may assume the user will enter a positive number.
+				
+				Call the function several more times using sensible hardcoded values. 
+				
+2	2	6		Write a function that takes an argument representing a distance in miles and prints the 
+				equivalent distance in kilometres. Base your calculation on 1 mile = 1.61km.
+				
+				In the main routine ask the user to enter the number of miles. Call the function, passing in this 
+				value.
+				
+				If the user enters 7.6 your program should produce the following output:
+				
+				7.6 miles is 12.236km
+				
+				Call the function several more times in the main routine, passing in sensible test values.
+				
+2	2	7		Write a function that takes 3 arguments: the name of a sport, the number of players required for 
+				each team (including 2 subs) and the number of children that have signed up for that sport. Print 
+				out the sport and how many complete teams can be formed.
+				
+				In the main routine call the function twice. For example the function could be called like 
+				this:
+				
+				calc_teams(“Soccer”, 13, 149)
+				calc_teams(“Netball”, 9, 123)
+				
+				which should produce output similar to:
+				
+				>>>
+				Soccer: 11 complete teams
+				Netball: 13 complete teams
+				>>>
+				
+2	2	8		Write a Python script which defines a function called name_of_capital. 
+				
+				The function should take an argument representing the name of a country. It should then prompt 
+				the user for the capital city of that country and store it in a variable called capital_name. 
+				Finally the function should finish with a statement which prints out a summary of the 
+				information.
+				
+				For instance, if the function is called with the argument 'Argentina', it should behave as shown below
+				(where 'Buenos Aires' is the value entered by the user):
+				
+				
+				>>>
+				Enter the capital of Argentina: Buenos Aires
+				You claim the capital of Argentina is Buenos Aires.
+				>>>
+				
+				In the main routine, the function should be called twice.
+				
+				The first time the argument should be: ' Samoa'
+				
+				The second time the argument should be:  'Italy'
+				
+3	1	1		In a Python script write a function that takes two Boolean arguments (a and b) and returns: 
+				
+				Both' if both a and b are True; 
+				One' if a or b is True; and 
+				None' if neither are True.
+				
+				Add a main routine that calls the function several times with good test data, printing out the 
+				returned value each time.
+				
+3	1	2		In a Python script write a function called are_any_two_equal that takes 3 int 
+				arguments (x, y and z).
+				
+				It should return True if x is equal to y, or y is equal to z or x is equal to z, 
+				
+				It should return False otherwise. 
+				
+				Add a main routine that calls the function several times and prints out the returned value each time. Pass 
+				in sensible test values.
+				
+3	1	3		In a Python script write a function called boolean_test that takes two Boolean 
+				arguments, named x and y, and prints the value of the following Boolean expressions:
+				
+				x == y
+				not(x or y)
+				
+				So for example the function could be called like this:
+				
+				boolean_test(True, False)
+				
+				in which case the output would be:
+				
+				>>>
+				True == False is False
+				not(True or False) is False
+				>>>
+				
+				Call the function in the main routine several times with a good selection of test values.
+				
+3	1	4		In a Python script write a function called boolean_test that takes two Boolean 
+				arguments (x and y) and prints the value of the following Boolean expressions:
+				
+				not x or not y
+				x and not y
+				
+				So for example the function could be called like this:
+				
+				boolean_test(True, False)
+				
+				in which case the output would be:
+				
+				>>>
+				not True or not False is True
+				True and not False is True
+				>>>
+				
+				Call the function in the main routine several times with a good selection of test values.
+				
+3	1	5		In a Python script write a function called boolean_test that takes two Boolean 
+				arguments (x and y) and prints out the following Boolean expressions and their 
+				respective values:
+				
+				not(x==y)
+				x or not y
+				
+				So for example the function might be called like this:
+				
+				boolean_test(True, False)
+				
+				In which case the output would be:
+				
+				>>>
+				not(True == False) is True
+				True or not False is True
+				>>>
+				
+				Call the function in the main routine several times with a good selection of test values.
+				
+3	1	6		In a Python script write a function that takes 3 strings and returns True if all three have the 
+				same length and False if they do not.
+				
+				Add a main routine that calls the function several times and prints out the returned value each time. Use a 
+				good selection of test data.
+				
+3	1	7		In a Python script write a function that takes a string and 2 ints. It should return True if the ints are equal to each other and 
+				the length of the string is greater than that number. Otherwise it should return False.
+				
+				Add a main routine that calls the function several times and prints out the returned value each time. Use a 
+				good selection of test data.
+				
+3	1	8		In a Python script write a function that takes a string, an int and a Boolean. If the Boolean is True and the length of the string 
+				is greater than the int it should print the string, otherwise it should print “not applicable”
+				
+				Add a main routine that calls the function several times. Use a good selection of test data.
+				
+3	1	9		Write a function called add_or_subtract that takes 2 Booleans and 2 ints.
+				
+				If both the Booleans are True the function should print out the full equation
+				showing the addition of the two ints. Otherwise the function should print out
+				the full equation for the subtraction of the second int from the first int.
+				
+				So for example if the function is called like this:
+				
+				add_or_subtract(True, False, 3, 7)
+				
+				the output would be:
+				
+				>>>
+				3 - 7 is -4
+				>>>
+				
+				If it were called like this:
+				
+				add_or_subtract(True, True, 5, 3)
+				
+				the output would be:
+				
+				>>>
+				5 + 3 is 8
+				>>>
+				
+				Add a main routine that calls the function several times. Use a good selection of test data.
+				
+3	1	10		Write a function called divide_or_multiply that takes 2 Booleans and 2 ints.
+				
+				If either (or both) of the Booleans is True the function should print out the
+				full equation showing the first int divided by the second int. Otherwise the
+				function should print out the full equation for the multiplication of the 2
+				ints.
+				
+				So for example if the function is called like this:
+				
+				divide_or_multiply(True, False, 13, 5)
+				
+				the output would be:
+				
+				>>>
+				13 / 5 is 2.6
+				>>>
+				
+				If the function is called like this:
+				
+				divide_or_multiply(False, False, 6, 3)
+				
+				the output would be:
+				
+				>>>
+				6 * 3 is 18
+				>>>
+				
+				Add a main routine that calls the function several times. Use a good selection of test data. You may assume that the
+				second number is never zero.
+				
+3	2	1		Gold percentages to karats
+				
+				Alloy metals are added to gold to increase hardness and durability. The level of pure gold is often measured in karats. 
+				
+				Conversion between a percentage of pure gold and karats(K):
+				
+				    58.33 up to and including 62.50% is 14K
+				    75.00 up to and including 79.16% is 18K 
+				    91.66 up to but NOT including 95.83% is 22K 
+				    95.83 up to but NOT  including 99.95% is 23K 
+				    99.95 up to and including 100% is 24K 
+				
+				Use the table above to write a function called gold_percentage_to_karats. 
+				
+				The function should take a float representing the percentage of pure gold. It should return a string 
+				comprising the number of corresponding karats concatenated with a 'K'. If the percentage is not covered 
+				in the table above simply return "undetermined".
+				
+				Add a main routine that asks the user for a percentage, passes it to the function and
+				prints out the returned value in a sentence as shown below (where 76 is the
+				value entered by the user):
+				
+				>>>
+				Enter the percentage of the gold : 76
+				76.0% pure gold in karats is 18K.
+				>>>
+				
+				Alternatively (where 85.2 is the value entered by the user):
+				
+				>>>
+				Enter the percentage of the gold : 85.2
+				85.2% pure gold in karats is undetermined.
+				>>>
+				
+				You may assume the user will enter a number between 0 and 100 inclusive.
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned value each time. 
+				
+3	2	2		Dr Who actors
+				
+				The reboot of Dr Who has been airing since 2005. The table below shows the main actor playing 
+				the Doctor for each year since. 
+				
+				The values are inclusive. (Brief appearances and Christmas specials have been ignored for the sake of simplicity).
+				
+				Christopher Eccleston: 2005     
+				David Tennant: 2006-2009
+				Matt Smith: 2010-2013   
+				Peter Capaldi: 2014-2017        
+				Jodie Whittaker: 2018 - 2019
+				
+				The function should take an int representing a year. It should return the name of the actor playing the Doctor in that year. 
+				
+				In the event of the year not being covered in the table above simply return "undetermined".
+				
+				Add a main routine that asks the user for a year, passes it to the function and
+				prints out the returned value in a sentence as shown below (where 2009 is the
+				value entered by the user):
+				
+				>>>
+				Enter the year : 2009
+				The main actor playing Dr Who in 2009:  David Tennant.
+				>>>
+				
+				Alternatively (where 1999 is the value entered by the user):
+				
+				>>>
+				Enter the year : 1999
+				The main actor playing Dr Who in 1999:  undetermined.
+				>>>
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned value each time. 
+				
+3	2	3		The magnitude of an earthquake can be described using the following:
+				
+				0 to less than 5: Light
+				5.0 - less than 6: Moderate
+				6.0 - less than 7: Strong
+				7.0 +: Major
+				
+				In a Python script write a function that takes a single argument indicating the magnitude of an 
+				earthquake. 
+				
+				The function should return the word describing the magnitude of the earthquake.
+				
+				Add a main routine that asks the user for a magnitude, passes it to the function and prints out 
+				the returned value in a sentence as shown below (Where 3.3 is the value entered by the user):
+				
+				>>>
+				Enter magnitude: 3.3
+				An earthquake of magnitude 3.3 is Light.
+				>>>
+				
+				You may assume that the user will enter a non-negative number.
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned value each time. 
+				
+3	2	4		Write a function for a television shopping network that takes 1 argument - the total amount 
+				they have spent in the past 12 months. It should then return their status.
+				
+				If they have spent $2000 or more they qualify as 'platinum' customers. Otherwise if the amount is 
+				$1000 or more they qualify as 'gold' customers. Anyone who has spent anything at all with them 
+				qualifies as 'silver'. If the customer has spent nothing their status is 'new'.
+				
+				Add a main routine that asks the user for their name and the amount they have spent and prints 
+				out a greeting as shown below (where Mary-Lou and 12500 are the values entered by the user):
+				
+				
+				>>>
+				Enter your name: Mary-Lou
+				Enter the amount you have spent with us: $12500
+				Welcome Mary-Lou! You are a platinum customer.
+				>>>
+				
+				Add further statements to main to test your function with a good selection of hardcoded values. 
+				You may assume that the user will enter a non-negative number.
+				
+3	2	5		Write a function that takes a numerical course mark out of 100 and returns a letter grade. Any mark
+				80 or greater is an A, 65 up to (but not including) 80 is a B, 50 up to (but not including) 65 is 
+				a C, 40 up to (but not including) 50 is a D. Anything else is an F.
+				
+				Add a main routine that asks the user for a mark, passes it to the function and prints out the 
+				returned value in a sentence as shown below (where 37 is the value entered by the user):
+				
+				>>>
+				Enter your mark (between 0 and 100 inclusive): 37
+				Your grade is F!
+				>>>
+				
+				Add further statements to main to test your function with a good selection of hardcoded values. 
+				
+				You may assume that the user will enter a number between 0 and 100 inclusive.
+				
+3	2	6		Write a function called calc_interest_rate which takes 2 arguments:
+				
+				        a float representing an amount being borrowed
+				
+				        a Boolean representing whether the loan is secured 
+				                                (True if it is and False if it is not)
+				
+				Starting from a base rate of 15.0% the function should calculate and return the actual interest rate which is calculated as follows:
+				
+				        for an amount over 10,000 the rate is reduced by 1%  unless the amount is over 100,000 in which case it is reduced by 2%.
+				
+				        the rate for a secured loan is reduced by 2%
+				
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned interest rate each time. 
+				
+				When called as follows:
+				
+				calc_interest_rate(10001, False)
+				
+				it should return 14.0.
+				
+				When called as follows:
+				
+				calc_interest_rate(500000, True)
+				
+				it should return 11.0.
+				
+3	2	7		In a Python script write a function that takes a single argument indicating the latitude of 
+				somewhere on Earth.
+				 
+				If the latitude is between 0 and 23 inclusive, then return 
+				
+				tropical
+				
+				If the latitude is greater than 66, then return
+				
+				polar
+				 
+				If the latitude is greater than 23, but less than or equal to 66, then return:
+				
+				temperate.
+				
+				Add a main routine that asks the user for their current latitude, passes it to the function and 
+				prints out the returned value in a sentence as shown (where 12 is the value entered by the user).
+				
+				>>>
+				Enter your current latitiude: 12
+				You are in a tropical zone.
+				>>>
+				
+				You may assume that the user will enter a number between 0 and 90 inclusive.
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned value each time. 
+				
+3	2	8		Based on a simplified Beaufort scale, the table below describes wind conditions:
+				
+				               Wind speed (km/h)                                  Description
+				        
+				                Less than 1                                         calm
+				
+				                1 or more but less than 50                          breezy
+				                
+				                50 or more but less than 89                         gale
+				
+				                89 or more but less than 118                        storm
+				                
+				                118 or more                                         hurricane
+				                
+				
+				In a Python script write a function that takes a single argument indicating the wind speed in 
+				kilometres per hour and returns the appropriate word.
+				
+				Add a main routine that asks the user for the current wind speed, passes it to the function and 
+				prints out the returned value, including it in a sentence as shown (where 123 is the value entered by the user and 
+				hurricane' is the value returned from the function).   
+				
+				>>>
+				Enter the current wind speed: 123
+				Hmmm, you are currently experiencing hurricane conditions.
+				>>>
+				
+				You may assume that the user will enter a non-negative number.
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned value each time. 
+				
+3	2	9		The history of Britain is usually divided by historians into a series of periods.
+				These are often connected with the royal house occupying the throne at the time.        
+				
+				The periods in modern British history can loosely be described using the
+				following:
+				
+				Less than 1485: Pre-Tudor
+				1485 - less than 1603: Tudor
+				1603 - less than 1714: Stuart
+				1714 - less than 1837: Georgian
+				1837 - less than 1901: Victorian
+				1901 - less than 1910: Edwardian
+				1910+ : Windsor
+				
+				Write a function that takes an int argument representing a year e.g. 1642
+				
+				The function should return the name of the corresponding period.
+				
+				Add a main routine that asks the user for a year, passes it to the function and
+				prints out the returned value in a sentence as shown below (where 1678 is the
+				value entered by the user):
+				
+				>>>
+				Enter a year : 1678
+				1678 was in the Stuart period.
+				>>>
+				
+				Add further statements to the main routine which call the function several times. Be sure to pass in a good selection of 
+				test data and print out the returned value each time. 
+				
+3	2	10		In New Zealand speed related offences (excluding speed camera offences) attract
+				demerit points. If you accumulate 100 or more active demerit points within any
+				two year period, your licence will be suspended. 
+				
+				The demerit points given depend on the amount by which you exceed the speed
+				limit:
+				
+				------------------------------------------------------------------------
+				General description of offence                          | Demerit points
+				------------------------------------------------------------------------
+				Exceeding the speed limit
+				        fixed by not more than 10 km/h                  |     10
+				------------------------------------------------------------------------
+				Exceeding the speed limit
+				        by more than 10 km/h but not more than 20 km/h  |     20
+				------------------------------------------------------------------------
+				Exceeding the speed limit
+				        by more than 20 km/h but not more than 30 km/h  |     35
+				------------------------------------------------------------------------
+				Exceeding the speed limit
+				        by more than 30 km/h but not more than 35 km/h  |     40
+				------------------------------------------------------------------------
+				Exceeding the speed limit by more than 35 km/h          |     50
+				------------------------------------------------------------------------
+				    
+				Write a function that takes 2 floats (representing the speed and the speed-limit)
+				and returns the number of demerit points given in that situation.
+				
+				You may assume that speeds less than or equal to the speed limit will not receive
+				demerit points. (This is not necessarily true in real life!)
+				
+				Add a main routine that asks the user for the speed and the speed limit and
+				passes them to the function. Print out the returned value in a sentence as shown
+				below (where 100 is the speed limit entered by the user and 123 is the speed entered by the user):
+				
+				>>>
+				Enter the speed limit: 100
+				Enter the speed: 123
+				This will receive 35 demerit points
+				>>>
+				
+				Add further statements to main to test your function with a good selection of
+				hardcoded values.
+				
+4	1	1		TLA (Three letter acronyms)
+				
+				Write a function that takes 3 string parameters and returns a three letter acronym consisting of 
+				the first characters of the strings concatenated together. Ensure that the TLA returned is upper 
+				case.
+				
+				The function should pass the following doctests.
+				
+				def create_TLA(w1, w2, w3):
+				    '''
+				    >>> create_TLA("indignant", "otters", "ululate")
+				    'IOU'
+				    >>> create_TLA("Game", "of", "Thrones")
+				    'GOT'
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+				NOTE: Remember to make use of string methods where suitable.
+				
+4	1	2		python to camelCase
+				
+				According to python naming conventions each new word in an identifier is preceded by an underscore, e.g.:
+				
+				        student_age
+				
+				        calculate_tax
+				
+				In many other languages camel case naming style is used where each new word in an identifier starts with a capital letter
+				e.g.:
+				
+				        studentAge
+				
+				        calculateTax
+				
+				Write a function that takes a string representing a python identifier and returns it in camel case form. You may assume the 
+				input string contains either either one or zero underscores.  HINT: use slices.
+				
+				Your function should pass the following doctests:
+				
+				def python_to_camelCase(python_string_id):
+				    '''
+				    >>> python_to_camelCase("student_age")
+				    'studentAge'
+				    >>> python_to_camelCase("qwerty_xxx")
+				    'qwertyXxx'
+				    >>> python_to_camelCase("age")
+				    'age'
+				    >>> python_to_camelCase("xxx")
+				    'xxx'
+				    
+				    '''
+				    
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+				NOTE: Remember to make use of string methods where suitable.
+				
+4	1	3		Generate Usercode
+				
+				Write a function that takes 2 string parameters, first_name and last_name, and an int.  It 
+				should generate and return an Otago university usercode. These are always lower case. The 
+				usercode should consist of the first 3 letters of last_name followed by the first two letters 
+				of first_name followed by the int. If last_name is shorter than 3 or first_name is shorter than 
+				2, simply include as many letters as you can.
+				
+				The function should pass the following doctests.  
+				
+				def generate_usercode(first_name, last_name, id_num):
+				    '''
+				    >>> generate_usercode("Tyrion", "Lannister", 459)
+				    'lanty459'
+				    >>> generate_usercode("Arya", "Stark", 1382)
+				    'staar1382'
+				    >>> generate_usercode("A", "S", 1382)
+				    'sa1382'
+				    ''' 
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+				NOTE: Remember to make use of string methods where suitable.
+				
+4	1	4		Exclamation mark abuse
+				
+				A budding new writer, A. N. Ominous has decided to spurn the idea that exclamation marks should be used sparingly but, 
+				rather, thinks that they should just be proportional to the length of the string to which they apply.
+				
+				Write a function called cool_bangs that takes a string. Your function should first remove the last character if it is not a letter. 
+				
+				It should then return that string where exclamation marks totaling half its length have been added to it. Just use int division to calculate 
+				half the length.
+				
+				The following doctests should make it clear:
+				    
+				def cool_bangs(s):
+				    '''
+				    >>> cool_bangs('Astounding?')
+				    'Astounding!!!!!'
+				    >>> cool_bangs('Wow.')
+				    'Wow!'
+				    >>> cool_bangs('Yeah')
+				    'Yeah!!'
+				    >>> cool_bangs('This deserves some excitement.')
+				    'This deserves some excitement!!!!!!!!!!!!!!'
+				    '''
+				    
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				    
+				
+				NOTE: Remember to make use of string methods where suitable.
+				
+4	1	5		Remove middle
+				
+				Write a function that takes a string and uses slice notation to return a string with the middle 
+				character (or the middle 2 characters if its length is even) removed.
+				
+				The doctests below should make it clear.
+				
+				def remove_middle(string):
+				    '''
+				    >>> remove_middle('abcdef')
+				    'abef'
+				    >>> remove_middle('abcde')
+				    'abde'
+				    >>> remove_middle('ab')
+				    ''
+				    >>> remove_middle('a')
+				    ''
+				    '''
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	1	6		Write a function that takes a string and returns a string consisting of the last 2 characters 
+				followed by the first 2. If the string has fewer than 4 characters then return the whole string.
+				
+				The function should pass the following doctests.
+				
+				def two_and_two(string):
+				    '''
+				    >>> two_and_two('The quick brown fox')
+				    'oxTh'
+				    >>> two_and_two('We scream for ice cream')
+				    'amWe'
+				    >>> two_and_two('Sky')
+				    'Sky'
+				    '''
+				    
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	1	7		Write a function that takes a string and 2 ints representing indexes and returns a string with 
+				the section between the 2 indexes removed. The removed section should include the first index 
+				and go up to but not including the second. You may assume the two ints are not out of range. The doctests below should make it clear.
+				
+				The function should pass the following doctests.
+				
+				def remove_slice(s, num1, num2):
+				    '''
+				    >>> remove_slice("0123456789", 2, 8)
+				    '0189'
+				    >>> remove_slice("aaabbc", 3, 5)
+				    'aaac'
+				    >>> remove_slice("We love vanilla beans!", 8, 16)
+				    'We love beans!'
+				    '''
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	1	8		Write a function that accepts a string and concatenates an exclamation mark to the end of it if its length is an odd number. 
+				
+				It should then use slice notation to return a string that consists of the second half of the string followed by the first half.
+				
+				
+				The function should pass the following doctests.
+				
+				def swap_halves(s):
+				    '''
+				    >>> swap_halves("aaabbb")
+				    'bbbaaa'
+				    >>> swap_halves("aaabbbb")
+				    'bbb!aaab'
+				    '''
+				 
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	1	9		Remove Bits
+				
+				
+				Write a function that takes a string, s,  and 4 ints, a, b, c, and d.
+				
+				If a, b, c and d are not in ascending order or d is greater than the last 
+				valid index position in s the function should return the original string,
+				otherwise the function should return a string that consists of 2 substrings of s 
+				concatenated together. 
+				
+				The first substring should be between between a and b (inclusive),
+				the second between c and d (inclusive). 
+				
+				
+				
+				
+				def remove_bits(s,a,b,c,d):
+				    '''
+				    >>> remove_bits('0123456789', 1, 4, 6, 9)
+				    '12346789'
+				    >>> remove_bits('0123456789', 1, 4, 6, 10)
+				    '0123456789'
+				    >>> remove_bits('My dogs like jumping in the pool on a hot day', 3, 5 ,28, 30)
+				    'dogpoo'
+				    >>> remove_bits('My dogs like jumping in the pool on a hot day', 3, 23 ,6, 30)
+				    'My dogs like jumping in the pool on a hot day'
+				    '''
+				
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+4	1	10		Remove Substring
+				
+				Write a function that takes 2 arguments - a main string and a smaller 
+				(sub) string. If the sub-string occurs in the main string the
+				function should return the main string but with the first occurrence of
+				the sub-string removed.
+				
+				If the sub-string does not occur in the main string simply return the
+				main string.
+				
+				You are NOT permitted to use the replace method.
+				
+				Hint: Check out str.find
+				
+				def remove_substring(mainstring, substring):
+				    '''
+				    >>> remove_substring('qwerty', 'wer')
+				    'qty'
+				    >>> remove_substring('qwertyqwerty', 'wer')
+				    'qtyqwerty'
+				    >>> remove_substring('qwerty', '!!!!')
+				    'qwerty'
+				    >>> remove_substring('Wow - this one is a proper sentence!', 'en')
+				    'Wow - this one is a proper stence!'
+				    '''
+				
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+4	2	1		For a particular word guessing game all letters in a word should be replaced by digits.
+				
+				Write a function called word_to_number that takes a single string argument. The function 
+				should return a string of digits.
+				
+				The conversion rules are the following:
+				
+				'a'', ''e'', ''i'', ''o'' or ''u'' maps to 0
+				'b'', ''c'' or ''d'' maps to 1
+				'f'', ''g'' or ''h'' maps to 2
+				'j'', ''k'', or ''l'' maps to 3
+				'm'', ''n'', or ''p'' maps to 4
+				'q'', ''r'', or ''s'' maps to 5
+				't'', ''v'', or ''w'' maps to 6
+				'x'', ''y'', or ''z'' maps to 7.
+				
+				The function should pass the following doctests.
+				
+				def word_to_number(word):
+				    """
+				    >>> word_to_number("apples")
+				    '044305'
+				    >>> word_to_number("thought")
+				    '6200226'
+				    >>> word_to_number("winner")
+				    '604405'
+				    """
+				    
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	2	2		Write a function that takes a string as an argument and returns the phone number 
+				corresponding to that string as the result.
+				
+				The phone number should also be a string.
+				
+				The conversion rules are the standard word to phone number rules:
+				
+				
+				a', 'b' or 'c' maps to 2
+				d', 'e' or 'f' maps to 3
+				g', 'h' or 'i' maps to 4
+				j', 'k', or 'l' maps to 5
+				m', 'n', or 'o' maps to 6
+				p', 'q', 'r', or 's' maps to 7
+				t', 'u', or 'v' maps to 8
+				w', 'x', 'y', or 'z' maps to 9.
+				
+				The function should pass the following doctests.
+				
+				
+				def word_to_phone_number(word):
+				    """
+				    >>> word_to_phone_number("apples")
+				    '277537'
+				    >>> word_to_phone_number("thought")
+				    '8468448'
+				    >>> word_to_phone_number("winner")
+				    '946637'
+				    """
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	2	3		Consonant to vowel ratio
+				
+				Write a function that takes a string and returns the ratio of consonants to vowels. Other characters should be ignored. 
+				
+				Note: you are not permitted to list the consonants in a string.
+				
+				Your function should pass the following doctests:
+				
+				
+				def consonant_to_vowel_ratio(s):
+				    '''
+				    >>> consonant_to_vowel_ratio('ababab')
+				1
+				    >>> consonant_to_vowel_ratio('ababab??!!')
+				1
+				    >>> consonant_to_vowel_ratio('aabbBB')
+				2
+				    >>> consonant_to_vowel_ratio('The quick brown fox jumps over the lazy dog.')
+				2.181818182
+				    >>> consonant_to_vowel_ratio('An apple a day, if well aimed, keeps the doctor away.')
+				1.352941176
+				    '''
+				    
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+4	2	4		Caesar Cipher
+				
+				Write a function that takes a string and an int. It should return an encoded string using a 
+				simple Caesar cipher.
+				
+				Note: The ord function takes a single character string and returns its equivalent ordinal number. 
+				The chr function takes an int and returns the one-character string that has that ordinal number.
+				
+				So 
+				
+				ord('a') gives 97
+				
+				chr(97) gives 'a'
+				
+				chr (ord('a') + 2) gives 'c'
+				
+				Iterate through the string , incrementing the ordinal number of each character by the int parameter and 
+				converting back to a char. Spaces, however, should remain as spaces.
+				
+				The function should pass the following doctests.
+				
+				def caesar_cipher(s, i):
+				    '''
+				    >>> caesar_cipher("abcd", 2)
+				    'cdef'
+				    >>> caesar_cipher("The quick", 3)
+				    'Wkh txlfn'
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+				  
+				
+4	2	5		Check Id Number
+				
+				Write a function that takes a string representing an id and returns True if the string is 
+				considered 'valid' and False if it is not. An id string is considered to be valid if it 
+				is: 
+				- at least 3 characters long and 
+				#NAME?
+				
+				
+				E.g.
+				
+				        "abc" is considered to be valid since
+				        (97 + 98 + 99) / 3 has a remainder of 0
+				
+				        "wxyz" is not considered to be valid since 
+				        (119 + 120 + 121 + 122) / 4 has a remainder of 2
+				
+				Remember: Each Unicode character has a corresponding integer. This int can be found using the ord 
+				function e.g.
+				
+				    ord('a') returns 97
+				    ord('b') returns 98
+				    ord('z') returns 122
+				    ord('A') returns 65
+				    ord('Z') returns 90
+				
+				The function should pass the following doctests.
+				
+				
+				def check_sum(id_string):
+				    '''
+				    >>> check_sum("abcde")
+				    True
+				    >>> check_sum("agbf")
+				    True
+				    >>> check_sum("QWERTY")
+				    True
+				    >>> check_sum("1234")
+				    False
+				    >>> check_sum("ac")
+				    False
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	2	6		Check Passcode
+				
+				Write a function that takes a string of digits, representing a passcode, and 2 ints, x and y. 
+				It should return True if the passcode is valid and False if it is not. To be valid the 
+				passcode must have a length that is between the 2 ints (inclusive) and the sum of the individual 
+				digits must be a multiple of the length.
+				
+				You may trust that the string argument contains only digits. You may also trust that 
+				y is greater than or equal to x.
+				
+				The function should pass the following doctests.
+				
+				def check_code(code_string, x, y):
+				    '''
+				    >>> check_code("234", 4, 7)
+				    False
+				    >>> check_code("234", 3, 7)
+				    True
+				    >>> check_code("2365", 2, 7)
+				    True
+				    >>> check_code("2365", 2, 3)
+				    False
+				    >>> check_code("5683459", 6, 10)
+				    False
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+4	2	7		camelCase to python  
+				
+				
+				According to python naming conventions each new word in an identifier is preceded by an underscore, e.g.:
+				
+				        student_age
+				
+				        calculate_tax
+				
+				In many other languages camel case naming style is used where each new word in an identifier starts with a capital letter 
+				e.g.:
+				
+				        studentAge
+				
+				        calculateTax
+				
+				Write a function that takes a string representing a camel case identifier and return it in python form. 
+				
+				Your function should pass the following doctests:  
+				    
+				def camelCase_to_python(camelCaseStringId):
+				    '''
+				    >>> camelCase_to_python("studentAge")
+				    'student_age'
+				    >>> camelCase_to_python("qwertyXxx")
+				    'qwerty_xxx'
+				    >>> camelCase_to_python("age")
+				    'age'
+				    >>> camelCase_to_python("xxx")
+				    'xxx'
+				    >>> camelCase_to_python('whatAVeryLongMethodName')
+				    'what_a_very_long_method_name'
+				    '''
+				        
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+4	2	8		Write a function that takes a string argument and an int argument. The function should return a 
+				new string derived from the argument string but where a character is removed if its ord is a 
+				multiple of the int.
+				
+				Remember: Each Unicode character has a corresponding integer. This int can be found using the ord 
+				function e.g.
+				
+				    ord('a') returns 97
+				    ord('b') returns 98
+				    ord('z') returns 122
+				    ord('A') returns 65
+				    ord('Z') returns 90
+				
+				
+				The function should pass the following doctests.
+				
+				def remove_ord_multiples(string, x):
+				    '''
+				    >>> remove_ord_multiples("abcde", 2)
+				    'ace'
+				    >>> remove_ord_multiples("abcdefghijklmnop", 3)
+				    'abdeghjkmnp'
+				    >>> remove_ord_multiples("Ant, Bear, Cat, Dog, Elephant, Frog", 5)
+				    't, Bear, Cat, Dog, Elephat, rog'
+				    '''
+				
+4	2	9		Excited String 
+				
+				Write a function that takes a single string, s, as an argument and returns 
+				a string in which each digit is replaced by the corresponding number of exclamation marks (!). 
+				
+				def excited_string(s):
+				
+				    '''
+				    >>> excited_string("123")
+				    '!!!!!!'
+				    >>> excited_string(" 1 2 3 4 5")
+				    ' ! !! !!! !!!! !!!!!'
+				    >>> excited_string("Wow1 This2 is1 super111 exci2ting")
+				    'Wow! This!! is! super!!! exci!!ting'
+				    >>> excited_string("Wow1 This2 is1 super111 exciting3")
+				    'Wow! This!! is! super!!! exciting!!!'
+				    '''
+				
+				    
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+4	2	10		Distinct Letters
+				
+				Write a function that takes a string and returns the number of distinct
+				letters it contains. 
+				
+				Hint: Start with an empty string called distinct and as you loop concatenate
+				to it only letters that the distinct string does not already contain i.e. distinct letters.
+				
+				It should pass the following doctests:
+				
+				def count_distinct_letters(s):
+				    '''   
+				    >>> count_distinct_letters('aaaaaa')
+				1
+				    >>> count_distinct_letters('1234')
+				0
+				    >>> count_distinct_letters('qwerty1234')
+				6
+				    >>> count_distinct_letters('qqwweerrttyy1234')
+				6
+				    '''
+				    
+				    distinct = "" 
+				
+				
+				    
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+4	2	11		Digits First
+				
+				Write a function which takes a string argument and returns a string where
+				all the digits of the original string are at the beginning of the string, and
+				the other characters follow the digits. All spaces are removed.
+				
+				def numbers_up(s):
+				    '''
+				    >>> numbers_up('My Dad turned 50')
+				    '50MyDadturned'
+				    >>> numbers_up('Show is on 12th June 2019')
+				    '122019ShowisonthJune'
+				    >>> numbers_up('30 days hath September')
+				    '30dayshathSeptember'
+				    >>> numbers_up('6###6&&&6')
+				    '666###&&&'
+				    '''
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	1	66.zip	Write a function that takes a single string argument representing the name of 
+				a file that contains ints separated by spaces. The function should return the 
+				largest number in the file. You may trust that the file will only contain 
+				space-separated ints and will not be empty.
+				
+				Remember to have the files in the same directory as the python file.
+				
+				The function should pass the following doctests:
+				
+				def find_largest_num(file_name):
+				    '''
+				    >>> find_largest_num('numbers.txt')
+				87998
+				    >>> find_largest_num('numbers_2.txt')
+				125
+				    '''
+				    
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	2	67.zip	Write a function that takes a file name and 2 ints as arguments and
+				returns the number of words in the file that have a length between the 2 numbers
+				(inclusive). 
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+				
+				Remember to have the files in the same directory as the python file.
+				
+				The function should pass the following doctests:
+				
+				def count_words_with_len_in_range(file_name, x, y):
+				    '''
+				    >>> count_words_with_len_in_range('bleak_house.txt', 8, 9)
+				275
+				    >>> count_words_with_len_in_range('styles.txt', 1, 3)
+				55
+				    >>> count_words_with_len_in_range('test_2.txt', 4, 7)
+				4
+				    '''
+				    
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	3	68.zip	Write a function that takes a single string argument representing a file name.
+				
+				The function should open the file (remember to have the files in the same directory as the python file).
+				
+				The function should then count how many times the words "God" or "Lord" are in the file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word. 
+				God. is not expected to match "God"
+				
+				The function should pass the following doctests:
+				
+				def count_religious_references(filename):
+				    """
+				    >>> count_religious_references("anthem.txt")
+				3
+				    >>> count_religious_references("anthem_uk.txt")
+				7
+				    >>> count_religious_references("anthem_au.txt")
+				0
+				    >>> count_religious_references("lorde.txt")
+				0
+				    """
+				
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	4	69.zip	Write a function that takes 2 arguments - a file name and a single character string. 
+				
+				The function should open the file and return the last word in the file that starts with the character argument. The character 
+				is case-sensitive, i.e. 'K' is considered different to 'k'.
+				
+				If there is not a word in the file that starts with the given character the function should just return an empty string.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+				
+				Remember to have the files in the same directory as the python file.
+				
+				The function should pass the following doctests:
+				
+				def last_word_to_start_with(file_name, ch):
+				    '''
+				    >>> last_word_to_start_with('bleak_house.txt', 'F')
+				    'For'
+				    >>> last_word_to_start_with('styles.txt', 'r')
+				    'ran'
+				    >>> last_word_to_start_with('styles.txt', 'X')
+				    ''
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	5	70.zip	Write a function that takes two strings as arguments, a file name and a word to find.
+				
+				The function should open the file (remember to have the file in the same directory as the python file).
+				
+				The function should then count how many times the target word appears in the file and return the answer.
+				
+				In order to match, the word(s) in the document do NOT need to be the same case as the argument.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word. The word 'apple' is NOT expected to match 'apple.'
+				
+				The function should pass the following doctests:
+				
+				def word_count(file_name, target):
+				
+				    """
+				    >>> word_count("anthem.txt", "defend")
+				2
+				    >>> word_count("anthem.txt", "love")
+				1
+				    >>> word_count("anthem.txt", "banana")
+				0
+				    >>> word_count("anthem.txt", "god")
+				3
+				    >>> word_count("anthem.txt", 'go')
+				0
+				    """
+				
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	6	71.zip	Write a function that takes a file name as an argument. 
+				
+				The function should open the file (remember to have the file in the same directory as the python 
+				file)
+				
+				The function should then return the first word that does NOT start with a capital letter. 
+				If all of them do start with capital letters, it should return an empty string.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+				
+				The function should pass the following doctests:
+				
+				def find_first_non_capitalised(file_name):
+				    '''
+				    >>> find_first_non_capitalised('bleak_house.txt')
+				    'term'
+				    >>> find_first_non_capitalised('styles.txt')
+				    'had'
+				    >>> find_first_non_capitalised('test_4.txt')
+				    ''
+				    '''
+				
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				    
+				
+5	1	7	72.zip	Write a function that takes a file name and two bigrams as arguments. A bigram is a sequence of any two characters (for example, ’ch’).
+				
+				The function should open the file (remember to have the file in the same directory as the python file)
+				
+				The function should count and return the number of words that contain one or both of the bigrams.
+				
+				The function should include capitalised or partially capitalised versions of the bigrams in the count.
+				
+				The function should pass the following doctests:
+				
+				def count_words_with_bigrams(file_name, bigram1, bigram2):
+				    '''
+				    >>> count_words_with_bigrams('bleak_house.txt', 'th', 'ch')
+				415
+				    >>> count_words_with_bigrams('styles.txt', 'th', 'ch')
+				9
+				    >>> count_words_with_bigrams('test_1.txt', 'th', 'ch')
+				4
+				    '''
+				    
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	1	8	73.zip	Write a function that takes a single string representing a filename as an argument.
+				
+				The function should open the file and return the total number of digits and single spaces it 
+				contains. (It should not count letters or other characters or other kinds of white space such 
+				as line breaks or tab characters.) 
+				
+				def digit_space_count(filename):
+				    """
+				    >>> digit_space_count("anthem.txt")
+				35
+				    >>> digit_space_count("digits.txt")
+				13
+				    >>> digit_space_count("phrase.txt")
+				1
+				    """
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	2	1	74.zip	Write a function called save_words_starting_with that takes two file names and a letter. 
+				The first file name is the file to be read and processed, the second is the destination 
+				file for your answer.
+				
+				The function should open the given file for processing and then write out to the 
+				destination file every word which starts with the letter argument, followed by a space. 
+				It should include words that start with both the upper case and lower case version of the 
+				letter.
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part
+				of the word.
+				
+				Your function should pass the doctests below:
+				
+				def save_words_starting_with(file_name, destination, letter):
+				    """
+				    >>> save_words_starting_with("anthem.txt",'q2_answer1.txt', 'd')
+				    >>> sfile = open('q2_answer1.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('save_words_answer1.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    >>> save_words_starting_with("anthem.txt",'q2_answer2.txt', 'g')
+				    >>> sfile = open('q2_answer2.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('save_words_answer2.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    >>> save_words_starting_with("styles.txt",'q2_answer2.txt', 'g')
+				    >>> sfile = open('q2_answer2.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('save_words_answer2.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    False
+				    """
+				
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				    
+5	2	2	75.zip	Words that start with a character whose ord is a multiple of a specified int
+				
+				Remember: The ord function takes a single character string and returns its equivalent ordinal number. 
+				
+				So: 
+				
+				        ord('a') returns 97
+				
+				        ord('b') returns 98
+				
+				        ord('A') returns 65
+				
+				Write a function called words_starting_with_multiple that takes two file names and an int.
+				The first file name is the file to be read and processed, the second is the destination 
+				file for your answer.
+				
+				The function should open the given file for processing and then write out to the 
+				destination file all the words that start with a character whose ord is a multiple of the 
+				int argument.
+				
+				E.g
+				
+				If the int argument was 5 and the file contained the word dog, then dog would be one of 
+				the words written out to the destination file. This is because the ord of 'd' is 100 and 100 is a 
+				multiple of 5.  Each word should be followed by a space.
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+				
+				Your function should pass the doctests below:
+				
+				
+				
+				def words_starting_with_multiple(file_name, destination, num):
+				    '''
+				    >>> words_starting_with_multiple("styles.txt",'q2_answer1.txt', 6)
+				    >>> sfile = open('q2_answer1.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('words_starting_with_multiple_answer1.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    >>> words_starting_with_multiple("bleak_house.txt",'q2_answer2.txt', 8)
+				    >>> sfile = open('q2_answer2.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('words_starting_with_multiple_answer2.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    '''
+				    
+				    
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	2	3	76.zip	Write a function called save_words_longer_than that takes two file names and a number 
+				representing a minimum length. The first file name is the file to be read and processed, the 
+				second is the destination file for your answer.
+				
+				The function should open the given file for processing and then write out to the destination 
+				file all the words that have a length longer than or equal to the given number. Each word 
+				should be followed by a space.
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part of the word.
+				
+				Your function should pass the doctests below:
+				
+				def save_words_longer_than(file_name, destination, number):
+				    """
+				    >>> save_words_longer_than("styles.txt",'q2_answer1.txt', 6)
+				    >>> sfile = open('q2_answer1.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('longer_than_answer1.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    >>> save_words_longer_than("anthem.txt",'q2_answer2.txt', 8)
+				    >>> sfile = open('q2_answer2.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('longer_than_answer2.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    """
+				    
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+5	2	4	77.zip	Write a function called words_that_contain that takes two file names and a string. The first file 
+				name is the file to be read and processed, the second is the destination file for your answer.
+				
+				The function should open the given file for processing and then write out to the destination file 
+				every word that contains exactly the given string (i.e. it is case-sensitive), followed by a space.
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word.
+				
+				Your function should pass the doctests below:
+				
+				def words_that_contain(file_name, destination, string):
+				    >>> words_that_contain("styles.txt",'q2_answer1.txt', "th")
+				    >>> sfile = open('q2_answer1.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('special_words_answer1.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    >>> words_that_contain('bleak_house.txt','q2_answer2.txt', "an")
+				    >>> sfile = open('q2_answer2.txt')
+				    >>> text_s = sfile.read()
+				    >>> cfile = open('special_words_answer2.txt')
+				    >>> text_c = cfile.read()
+				    >>> sfile.close()
+				    >>> cfile.close()
+				    >>> text_s == text_c
+				    True
+				    """
+				    
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+6	1	1		Write a function that takes an int argument, x,  and returns a string containing all the pentagonal
+				numbers that are less than x, starting from 1. Each number should be followed by a space.
+				
+				The attached jpg file provides a visual representation of pentagonal numbers where the outlines of  
+				larger and larger pentagons are overlaid but they share one vertex.
+				
+				The formula for a pentagonal number is (3*n**2 - n)//2
+				
+				Sample:
+				
+				n:                                    1    2      3        4       5          
+				pentagonal number:      1    5      12      22     35          
+				
+				The function should use a while loop.
+				
+				The function should pass the doctests shown below:
+				
+				def pentagonal_numbers(x):
+				    '''
+				    >>> pentagonal_numbers(30)
+				    '1 5 12 22 '
+				    >>> pentagonal_numbers(600)
+				    '1 5 12 22 35 51 70 92 117 145 176 210 247 287 330 376 425 477 532 590 '
+				    '''
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+6	1	2		Write a function that takes an int argument, x,  and returns a string containing all the square 
+				numbers that are less than x, starting from 0. Each number should be followed by a space.
+				
+				Remember: A square number is a non-negative integer whose square root is also an integer.
+				
+				The function should use a while loop.
+				
+				The function should pass the doctests shown below:
+				
+				def squares(x):
+				    '''
+				    >>> squares(50)
+				    '0 1 4 9 16 25 36 49 '
+				    >>> squares(64)
+				    '0 1 4 9 16 25 36 49 '
+				    >>> squares(400)
+				    '0 1 4 9 16 25 36 49 64 81 100 121 144 169 196 225 256 289 324 361 '
+				    '''
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+6	1	3		Write a function that takes an int argument, x,  and returns a string containing all the 
+				triangular numbers that are less than x, starting from 1. Each number should be followed by a 
+				space.
+				
+				Note: A triangular number counts the objects that can form an equilateral triangle, as in the 
+				diagram below. 
+				
+				                                                                       .
+				                                                         .            . .
+				                                             .          . .          . . . 
+				                                    .       . .        . . .        . . . . 
+				                             .     . .     . . .      . . . .      . . . . .
+				                        .   . .   . . .   . . . .    . . . . .    . . . . . .
+				            
+				n:                      1    2      3        4           5             6
+				triangular number:      1    3      6        10          15            21
+				
+				The nth triangular number is the previous triangular number + n
+				
+				The function should use a while loop.
+				
+				The function should pass the doctests shown below:
+				
+				def triangle_nums(x):
+				    '''
+				    >>> triangle_nums(50)
+				    '1 3 6 10 15 21 28 36 45 '
+				    >>> triangle_nums(100)
+				    '1 3 6 10 15 21 28 36 45 55 66 78 91 '
+				    '''
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+6	1	4		Write a function called get_ird_number that asks the user for their IRD number until a valid one 
+				is entered. IRD numbers must be either 8 or 9 digits long, with no non-digit characters.
+				
+				The function should use a while loop.
+				
+				The function should offer some feedback to the user and be able to produce the behaviour shown 
+				below:
+				
+				>>> my_ird = get_ird_number()
+				Please enter your ird number (just numbers, no spaces or slashes etc): 1234
+				1234 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123412341234
+				123412341234 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123-456-7
+				123-456-7 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): abc
+				abc is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123456789
+				>>> my_ird
+				123456789'
+				>>> 
+				
+6	1	5		Write a function called get_ird_number that asks the user for their IRD number until a valid one 
+				is entered. IRD numbers must be either 8 or 9 digits long, with no non-digit characters.
+				
+				The function should use a while loop.
+				
+				The function should offer some feedback to the user and be able to produce the behaviour shown 
+				below:
+				
+				>>> my_ird = get_ird_number()
+				Please enter your ird number (just numbers, no spaces or slashes etc): 1234
+				1234 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123412341234
+				123412341234 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123-456-7
+				123-456-7 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): abc
+				abc is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123456789
+				>>> my_ird
+				123456789'
+				>>> 
+				
+6	1	6		Write a function called get_ird_number that asks the user for their IRD number until a valid one 
+				is entered. IRD numbers must be either 8 or 9 digits long, with no non-digit characters.
+				
+				The function should use a while loop.
+				
+				The function should offer some feedback to the user and be able to produce the behaviour shown 
+				below:
+				
+				>>> my_ird = get_ird_number()
+				Please enter your ird number (just numbers, no spaces or slashes etc): 1234
+				1234 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123412341234
+				123412341234 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123-456-7
+				123-456-7 is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): abc
+				abc is not a valid IRD number. Please try again.
+				Please enter your ird number (just numbers, no spaces or slashes etc): 123456789
+				>>> my_ird
+				123456789'
+				>>> 
+				
+6	1	7		Write a function that asks the user for a full file name (including the extension) until an 
+				acceptable type is entered and then returns it.  Accepted file types are: '.py', '.java', '.txt'. 
+				
+				You may wish to use the rfind method from str.
+				
+				The function should use a while loop.
+				
+				The function should offer sensible feedback to the user and be able to produce the behaviour 
+				shown below:
+				
+				
+				>>> file_name_1 = get_file_name()
+				Please enter your file name: qwerty.docx
+				.docx is not a permitted file type!
+				Please enter your file name: qwerty.rtf
+				.rtf is not a permitted file type!
+				Please enter your file name: qwerty.TXT
+				.TXT is not a permitted file type!
+				Please enter your file name: qwerty.txt
+				>>> file_name_1
+				qwerty.txt'
+				>>> file_name_2 = get_file_name()
+				Please enter your file name: qwerty.two.txt
+				>>> file_name_2
+				qwerty.two.txt'
+				>>> 
+				
+6	2	1	85.zip	Write a function that takes a single string representing a filename as an argument and a number, 
+				x.
+				
+				The function should then open the file and, using a while loop, return a string containing every 
+				xth word. The returned string should start with the first word and each word in it should be 
+				followed by a space. 
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word.
+				
+				Your function should pass the doctests below:
+				
+				def every_xth_word(filename,  x):
+				    '''
+				    >>> every_xth_word('right_ho_jeeves.txt', 150)
+				    '"Jeeves," out Cannes to home covered country, nothing some are sir. out '
+				    >>> every_xth_word('wuthering_heights.txt', 24)
+				    'Wuthering is north range it paused crumbling requested complete '
+				    >>> every_xth_word('anthem.txt', 7)
+				    'God the our free the her Zealand. '
+				    >>> every_xth_word('styles.txt', 12)
+				    'I months leave up I had my As place it leave '
+				    '''
+				
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+6	2	2	86.zip	Write a function that takes a string argument representing a filename and two int arguments, x 
+				and cut_off.
+				 
+				The function should then open the file and, using a while loop, return a string containing the 
+				first x words that have a length greater than the cut_off number. Each word should be followed by 
+				a space. If the file contains fewer than x words of sufficient length, the function should simply 
+				include all the words in the file that are longer than cut_off.
+				
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word.
+				
+				
+				Your function should pass the doctests below:   
+				
+				
+				
+				def first_x_words_longer_than(filename, x, cut_off):
+				    '''
+				    >>> first_x_words_longer_than('wuthering_heights.txt', 3, 8)
+				    "Wuthering Heathcliff's dwelling. "
+				    >>> first_x_words_longer_than('bleak_house.txt', 5, 9)
+				    'Michaelmas Chancellor Implacable Megalosaurus, elephantine '
+				    >>> first_x_words_longer_than('styles.txt', 6, 7)
+				    'invalided spending depressing Convalescent relations Cavendish '
+				    >>> first_x_words_longer_than('styles.txt', 20, 9)
+				    'depressing Convalescent particularly forty-five '
+				    >>> first_x_words_longer_than('styles.txt', 20, 20)
+				    ''
+				    '''
+				
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+6	2	3	87.zip	Write a function called words_containing_previous_word that takes a single string representing a filename as an argument.
+				
+				The function should open the file and, using a while loop, return a string consisting of every 
+				word that contains the word that precedes it in the file unless the previous word has a length of only 1. 
+				
+				E.g if the file contains the text:
+				
+				         in inward inward inwardly inner a apple
+				
+				the returned string would be:
+				
+				        'inward inward inwardly '
+				
+				The returned string should start with the first word that meets the criteria and each word in it should be followed by a space. 
+				If no word in the file contains the previous word,  the function should return an empty string. 
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word.
+				
+				Your function should pass the doctests below:
+				
+				def words_containing_previous_word(filename):
+				    '''
+				    >>> words_containing_previous_word("bleak_house.txt")
+				    "Lincoln's elephantine Lincoln's vain cross-bills, other grandmothers; "
+				    >>> words_containing_previous_word("styles.txt")
+				    ''
+				    >>> words_containing_previous_word("q87_test.txt")
+				    'inward inwardly '
+				    '''
+				
+				if __name__ == "__main__":    
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+6	2	4	88.zip	Write a function that takes a string argument representing a filename and an int argument, x.
+				 
+				The function should open the file and, using a while loop, return a string containing the first x 
+				words that start with a capital letter. Each word should be followed by a space. If the file 
+				contains fewer than x words that start with a capital, the function should simply include all the words in the file that do.
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word.
+				
+				Your function should pass the doctests below:   
+				
+				def first_x_capitalised_words(filename, x):
+				    '''
+				    >>> first_x_capitalised_words('wuthering_heights.txt', 5)
+				    "Wuthering Heights Mr. Heathcliff's Pure, "
+				    >>> first_x_capitalised_words('styles.txt', 3)
+				    'I Front Convalescent '
+				    >>> first_x_capitalised_words('phrase.txt', 30)
+				    'Hello World! '
+				    '''
+				
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+6	2	5	123.zip	Write a function called words_with_position_multiple_of_length that takes a single string 
+				representing a filename as an argument.
+				
+				The function should open the file and return a string. The string should consist of every 
+				word whose position in the file is a multiple of the word's length unless it has a length of 1. 
+				
+				
+				The returned string should start with the first word that meets the criteria and each word in it 
+				should be followed by a space. You must use a while loop to traverse the file contents.
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Note: You do not have to strip punctuation. Commas and full stops etc are just treated as a part 
+				of the word.
+				
+				Your function should pass the doctests below:
+				
+				def words_with_position_multiple_of_length(filename):
+				    '''
+				    >>> words_with_position_multiple_of_length("bleak_house_1.txt")
+				    'CHAPTER In and in in if waters the of the it meet feet or waddling an lizard of in as big as one for in to their '
+				    >>> words_with_position_multiple_of_length("styles.txt")
+				    'home the months given no to up to him some had him He fifteen my one he his As often at old it in his inviting leave '
+				    '''
+				
+				if __name__ == "__main__":    
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+7	1	1		Add to the LoyaltyCard class below so that it passes the doctests. Note the default values that are used when 
+				an instance of LoyaltyCard is made with no arguments.
+				
+				Add methods to:
+				        initialise the new instance with:
+				                the customer's name
+				                the customer's id number
+				                the type of item covered by this loyalty card e.g. coffee
+				                Note: the initial points value is set to 0, the number of points needed to redeem is always 6.
+				        return a string representation of the object
+				        add a point if they purchase an item and print a message if they now have enough points to redeem.
+				        redeem their points by subtracting the amount need to redeem from their current points value and print out a 
+				                message congratulating them and informing them of ther new balance.
+				                If they try to redeem without enough points print out a message informing them they can't.
+				
+				
+				class LoyaltyCard:
+				    """
+				    >>> test = LoyaltyCard()
+				    >>> print(test)
+				    X, id:0, has 0 points and must collect 6 before another free coffee.
+				    >>> customer1 = LoyaltyCard("Bob", 1234, "coffee")
+				    >>> print(customer1)
+				    Bob, id:1234, has 0 points and must collect 6 before another free coffee.
+				    >>> customer2 = LoyaltyCard("Fred", 5678, "pudding")
+				    >>> print(customer2)
+				    Fred, id:5678, has 0 points and must collect 6 before another free pudding.
+				    >>> customer1.purchase_item()
+				    >>> customer1.purchase_item()
+				    >>> customer1.purchase_item()
+				    >>> customer1.purchase_item()
+				    >>> customer1.purchase_item()
+				    >>> customer1.purchase_item()
+				    Hi Bob . You can redeem your points for a free coffee now
+				    >>> customer1.purchase_item()
+				    Hi Bob . You can redeem your points for a free coffee now
+				    >>> customer1.redeem_points()
+				    Bob - congratulations on your free coffee
+				    Your current points balance is: 1
+				    >>> customer2.purchase_item()
+				    >>> customer2.purchase_item()
+				    >>> customer2.redeem_points()
+				    Sorry Fred! You do not have enough points to redeem at this stage.
+				    """
+				
+				
+				if __name__ == "__main__":    
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+7	1	2		Add to the FuelTank class below so that it passes the doctests. Note the default values that are used when 
+				an instance of FuelTank is made with no arguments.
+				
+				Add methods to:
+				        initialise the new instance with:
+				                the tank's id code
+				                the tank's volume
+				                the tank's fuel current fuel amount - NOTE: all tanks are empty when created
+				                
+				        return a string representation of the object
+				        
+				        fill the tank with a specified amount of fuel
+				                        if the total amount exceeds the tank's volume: 
+				                                        set the fuel amount to the volume
+				                                        print an alert message (see doctests)   
+				        
+				        calculate the tank's remaining capacity
+				        
+				        use a specified amount of fuel from the tank
+				                        if the specified amount exceeds or equals what is in the tank: 
+				                                        set the fuel amount to zero
+				                                        print an alert message and state how much fuel was provided (see doctests)
+				        compare the remaining capacity of this tank to that of another tank - return a reference to the tank with the most remaining capacity
+				
+				
+				class FuelTank:
+				    '''
+				    >>> test = FuelTank()
+				    >>> print(test)
+				    Fuel tank, 000, can contain 0.0 litres and currently holds 0.0 litres.
+				    >>> tank1 = FuelTank("FT_01", 50)
+				    >>> tank1.fill_tank(16)
+				    >>> print(tank1.remaining_capacity())
+				34
+				    >>> print(tank1)
+				    Fuel tank, FT_01, can contain 50.0 litres and currently holds 16.0 litres.
+				    >>> tank1.fill_tank(40)
+				    Alert!! Fuel spill!!
+				    >>> print(tank1)
+				    Fuel tank, FT_01, can contain 50.0 litres and currently holds 50.0 litres.
+				    >>> tank2 = FuelTank("FT_02", 120)
+				    >>> tank2.fill_tank(70)
+				    >>> tank2.use_fuel(70)
+				    Alert! Tank is now empty. 70.0 litres was provided.
+				    >>> tank2.fill_tank(70)
+				    >>> tank3 = FuelTank("FT_03", 110)
+				    >>> tank3.fill_tank(65)
+				    >>> print(tank2.most_remaining_capacity(tank3).id_code)
+				    FT_02
+				    '''
+				
+				
+				if __name__ == "__main__":    
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+8	1	1		Write a definiton for a class named Student with the following methods:
+				        An init method that:
+				                initialises  the Student's name (which is a string)
+				                initialises the students id number (which is an int)
+				                initialises the students current papers (which is a list of strings - the default is an empty list)
+				
+				                NOTE the other default values in the doctests below
+				
+				        An add_paper method that takes a string representing a new paper and appends it to the student's list of papers. 
+				        It should first check that the paper is not already in the list and print out a message if it is - see doctests below for details.
+				
+				        A remove_paper method that takes a string representing the paper to be dropped and removes it from the student's list of papers.
+				        It should first check that the paper is already in the list and print out a message if it is not- see doctests below for details.
+				
+				        A str method - see doctests below for details.
+				
+				Write a second definition for a class named HallOfResidence with the following methods:
+				
+				        An init method that:
+				                initialises the name of the hall (which is a string)
+				                initialises the maximum number of students that the hall can accommodate (which is an int)
+				                intialises the students currently residing at the hall (which is a list of Student objects - the default is an empty list)
+				                initialises a constant called self.FULL_TIME to 3 - this represents the minimum number of papers that is considered full time study
+				
+				                NOTE the other default values in the doctests below
+				
+				        An add_student method that takes a student argument and adds the Student to the list of current students. It should first 
+				        check that hall is not already full and print a message if it is - see doctests below for details.
+				
+				        An audit_students method that checks each student to see if they are actually studying full time (i.e enrolled in 3 or more papers)
+				        and prints out a message for each one that isn't - see doctests below for details.
+				         
+				        A str method - see doctests below for details.
+				
+				
+				
+				You should develop your classes incrementally. The final program should pass the doctests provided below:
+				
+				class Student:
+				
+				class HallOfResidence:
+				    '''
+				    >>> a= Student("Joe", 1234567, ["COMP101", "COMP112", "COMP150"])
+				    >>> print(a)
+				    Joe, 1234567: COMP101, COMP112, COMP150
+				    >>> b = Student()
+				    >>> print(b)
+				    Unknown, 999999
+				    >>> b.name = "Felicity"
+				    >>> b.id = 4560987
+				    >>> b.add_paper("COMP101")
+				    >>> b.add_paper("FREN101")
+				    >>> b.add_paper("PSYC101")
+				    >>> b.add_paper("MATH101")
+				    >>> b.add_paper("COMP101")    
+				    Felicity already appears to be taking COMP101.
+				    >>> b.remove_paper("CHEM101")
+				    Felicity is not currently taking CHEM101.
+				    >>> print(b)
+				    Felicity, 4560987: COMP101, FREN101, PSYC101, MATH101
+				    >>> bay_view = HallOfResidence()
+				    >>> print(bay_view)
+				    Not registered has rooms for 0 full time students and currently houses 0
+				    >>> bay_view.name = "Bay View: Otago"
+				    >>> bay_view.add_student(b)
+				    Sorry but Bay View: Otago is currently at full capacity.
+				    >>> c = Student("Bob", 22334455, ["GEOG101", "MATH101", "PHYS101"])
+				    >>> c.remove_paper("PHYS101")
+				    >>> d = Student("Sajida", 6758392, ["GEOG101", "MATH101", "PHYS101"])
+				    >>> e = Student("Taine", 1294000, ["GEOG101", "MATH101", "PHYS101"])
+				    >>> mount_view = HallOfResidence("Mountain View: Otago", max_students = 120, students = [a,b,c,d,e])
+				    >>> print(mount_view)
+				    Mountain View: Otago has rooms for 120 full time students and currently houses 5
+				    >>> mount_view.audit_students()
+				    Bob does not appear to be currently undertaking full time study.
+				    '''
+				
+				if __name__ == "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+8	1	2	152.zip	Simplified Quiz
+				
+				
+				Add to the QuizQuestion class below so that it passes the doctests. Note the default values that are used when 
+				an instance of QuizQuestion is made with no arguments.
+				
+				Add methods to:
+				        initialise the new instance with:
+				                the question
+				                the possible answers - a list containing 4 options
+				                the index of the correct answer (in the list of possible answers). Stored as an int.
+				                        (You may trust that this is always a number between 0 and 3 inclusive)
+				                
+				        return a string representation of the object(see the doctests)
+				        
+				        display the question followed by the possible answers
+				        each possible answer should be preceded by 4 spaces followed by the appropriate index (0, 1, 2 or 3)
+				        followed by a colon and a space (see doctests)
+				                                                
+				        
+				        assess the user's answer:
+				                ask the user to enter 0, 1, 2 or 3 - you may trust that they will enter only one of these options, e.g:
+				                
+				                        Please enter your answer as 0, 1, 2 or 3: 
+				                
+				                return True if the user has selected the correct answer and False if they have not
+				        
+				In the main routine:
+				
+				        open Questions.txt and use the contents to create a list of QuizQuestion objects
+				                Example line:
+				                
+				                        How many states in the U.S. start with the letter 'M'?,6,7,8,9,2
+				                
+				                Note that the question, the 4 possible answers and the answer index are all separated by commas
+				                
+				        
+				        
+				        loop thought the list of  QuizQuestion objects 
+				                call the display question method on each object
+				                call the assess answer method on each object
+				                
+				        keep track of how many questions the user gets right and display this at the end e.g:
+				             
+				                You scored 2 out of 5      
+				
+				class QuizQuestion:
+				        '''
+				    >>> question1 = QuizQuestion()
+				    >>> print(question1)
+				    Question: ?
+				    Possible answers: ['a', 'b', 'c', 'd']
+				    Index of correct answer: 0
+				    >>> question1.display_question()
+				    ?
+				        0: a
+				        1: b
+				        2: c
+				        3: d
+				    >>> question2 = QuizQuestion("What is the capital of Australia?", ["Brisbane", "Sydney", "Canberra", "Melbourne"], 2)
+				    >>> print(question2)
+				    Question: What is the capital of Australia?
+				    Possible answers: ['Brisbane', 'Sydney', 'Canberra', 'Melbourne']
+				    Index of correct answer: 2
+				    >>> question2.display_question()
+				    What is the capital of Australia?
+				        0: Brisbane
+				        1: Sydney
+				        2: Canberra
+				        3: Melbourne
+				    '''
+				
+				
+				if __name__ == "__main__":    
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+9	1	1	89.zip	Mr. Oldschool, a maths teacher, has some files, each containing several lines of numbers separated by 
+				commas. The output from each source file should be written out to a specified destination file. 
+				Each line represents an addition problem that he would like displayed as if being done manually on paper. 
+				
+				
+				Write a function that takes the file name of a file containing multiple lines of comma separated 
+				numbers and a destination file name for you to write out your answer to. The function must align 
+				the numbers to the right, show the + sign and provide the answer below a line of dashes (hyphens). 
+				There should be 1 space between the plus sign and the last number.
+				
+				So, a file containing the line:
+				
+				
+				12,345,123,956
+				
+				should be written out as:
+				
+				12
+				345
+				123
+				956
+				-----
+				1436
+				
+				and 
+				
+				12, 345, 123, 56
+				
+				should be written out as:
+				
+				12
+				345
+				123
+				56
+				-----
+				536
+				
+				You may assume a total column width (including the + sign and space) of 5.
+				
+				Each total should be followed by 3 newline characters.
+				
+				You may encapsulate as you wish.
+				
+				Note: You might wish to use the format pattern '{:>5}'
+				
+				The function should pass the following doctests:
+				
+				def old_school_addition(file_name, destination):
+				    '''
+				    >>> import ssl
+				    >>> import urllib.request
+				    >>> ctx = ssl.create_default_context()
+				    >>> ctx.check_hostname = False
+				    >>> ctx.verify_mode = ssl.CERT_NONE
+				    >>> old_school_addition('numbers1.txt', 'answer1.txt')
+				    >>> file_check1 = urllib.request.urlopen('http://progress.otago.ac.nz/student/doctestFiles/old_school_addition_answer1.txt')
+				    >>> text_check1 = file_check1.read().decode('utf-8')
+				    >>> file_answer1 = open('answer1.txt')
+				    >>> text_answer1 = file_answer1.read()
+				    >>> text_answer1 == text_check1
+				    True
+				    >>> old_school_addition('numbers2.txt', 'answer2.txt')
+				    >>> file_check2 = urllib.request.urlopen('http://progress.otago.ac.nz/student/doctestFiles/old_school_addition_answer2.txt')
+				    >>> text_check2 = file_check2.read().decode('utf-8')
+				    >>> file_answer2 = open('answer2.txt')
+				    >>> text_answer2 = file_answer2.read()
+				    >>> text_answer2 == text_check2
+				    True
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+9	1	8		Every positive integer can be decomposed into a product of prime factors. For example, 
+				20 = 2*2*5. 
+				
+				A naive algorithm for computing the prime factors of a number is to check all the possible 
+				factors from 2 to the number (including the non-prime factors). If a number is a factor, 
+				then add it to a list of factors and reduce the original number by dividing by the factor. 
+				Write a function that computes all the prime factors of a given number and returns those 
+				factors as a list. 
+				
+				Your function should pass the following doctests:
+				
+				def prime_factors(num):
+				    """
+				    >>> prime_factors(2)
+				    [2]
+				    >>> prime_factors(5)
+				    [5]
+				    >>> prime_factors(10)
+				    [2, 5]
+				    >>> prime_factors(20)
+				    [2, 2, 5]
+				    >>> prime_factors(31)
+				    [31]
+				    >>> prime_factors(145147)
+				    [173, 839]
+				    >>> prime_factors(30)
+				    [2, 3, 5]
+				    >>> prime_factors(32)
+				    [2, 2, 2, 2, 2]
+				    """
+				
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+9	1	9		Every positive integer can be decomposed into a product of prime factors. For example, 20 = 2*2*5. 
+				A naive algorithm for computing the prime factors of a number is to check all the possible factors  
+				from 2 to the number (including the non-prime factors). If a number is a factor, then add it to a 
+				list of factors and reduce the original number by dividing by the factor. Write a function that 
+				computes all the prime factors of a given number and returns those factors as a list. 
+				Your function should pass the following doctests:
+				
+				def prime_factors(num):
+				    """
+				    >>> prime_factors(2)
+				    [2]
+				    >>> prime_factors(5)
+				    [5]
+				    >>> prime_factors(10)
+				    [2, 5]
+				    >>> prime_factors(20)
+				    [2, 2, 5]
+				    >>> prime_factors(31)
+				    [31]
+				    >>> prime_factors(145147)
+				    [173, 839]
+				    >>> prime_factors(30)
+				    [2, 3, 5]
+				    >>> prime_factors(32)
+				    [2, 2, 2, 2, 2]
+				    """
+				
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+9	1	10		Write a function that takes a string and a list of integers and returns a list of characters.  
+				Where the ord of a character in the string matches the number in the list at the same index as 
+				the character, that character should be included in the list returned by the function.
+				
+				
+				If the list of numbers is shorter than the string then the remaining characters in the string 
+				should be added as separate elements to the returned list.
+				
+				If the list of numbers is longer than the string then the extra numbers in the list should be 
+				ignored.
+				
+				Your function should pass the following doctests:
+				
+				def matching_ord_nums(string, ord_nums):
+				    '''
+				    >>> matching_ord_nums('abc', [97, 100, 99])
+				    ['a', 'c']
+				    >>> matching_ord_nums('abc', [97, 100, 99, 34, 98, 100])
+				    ['a', 'c']
+				    >>> matching_ord_nums('abcdef', [97, 100, 99])
+				    ['a', 'c', 'd', 'e', 'f']
+				    >>> matching_ord_nums("{}|['%", [97, 100, 99, 34, 98, 100])
+				    []
+				    >>> matching_ord_nums('abc', [97, 97, 99])
+				    ['a', 'c']
+				    '''
+				
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+9	1	2	93.zip	Write a function that takes 3 arguments and returns a coded string. The first argument is the 
+				name of a file that contains text to be encoded using a transposition cipher. The second argument 
+				is an int key and the third argument is a filler character. 
+				
+				To encode:
+				
+				Decide upon a key (which is just an int value). In the example below this is 4.
+				
+				Take a top-secret string to be coded e.g.
+				
+				        'The blue dove flies at midnight'
+				
+				Make the string lower case and strip out white space (see Note below).
+				
+				Add the filler character of your choice (in this case ‘q’) to make sure the length is a multiple 
+				of the key:
+				
+				        thebluedovefliesatmidnightqq
+				
+				You may wish to think of the resulting string as a series of tokens that are the same length as 
+				the key
+				
+				theb | lued | ovef | lies | atmi | dnig | htqq
+				
+				Build up the coded string with all the first letters of the tokens, followed by all the second 
+				letters, followed by all the third letters and so on.
+				
+				In this example the final returned string would be:
+				
+				        'tloladhhuvitnteeeemiqbdfsigq'
+				
+				Note: To strip out white space we can split on white space (which is the default) and join with 
+				the empty string:
+				
+				        stripped_string = ''.join(original_string.split())
+				
+				Remember to have all the required files in the same directory as the python file.
+				
+				Your function should pass the doctests provided:
+				
+				def transposition_encoder(file_name, key, extra_char):
+				    '''
+				    >>> transposition_encoder('secret_message.txt', 4, 'q')
+				    'tloladhhuvitnteeeemiqbdfsigq'
+				    >>> transposition_encoder('super_secret_message.txt', 6, 'e')
+				    "ttdinhlbcheessulbkenvitr'eiliinocsreincwnhrd.sgeiciuue"
+				    '''
+				
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+9	1	3		Adapted from Wikipedia, the free encyclopedia
+				
+				        In mathematics, a square-free, or quadratfrei (from German language) integer, is an 
+				        integer which is divisible by no other perfect square than 1. For example, 10 is 
+				        square-free but 18 is not, as 18 is divisible by 9 (which is, of course, the square of 3)
+				
+				Write a function that takes two parameters. The function should return a string containing all the 
+				square-free integers between the two numbers (inclusive). In the string each integer should be 
+				followed by a space.
+				
+				You may find it easier to encapsulate, using another function that simply checks if one number is 
+				square-free.
+				
+				Your function should pass the following doctests:
+				
+				
+				def square_free_nums(x, n):
+				    '''
+				    >>> square_free_nums(10, 20)
+				    '10 11 13 14 15 17 19 '
+				    >>> square_free_nums(70, 97)
+				    '70 71 73 74 77 78 79 82 83 85 86 87 89 91 93 94 95 97 '
+				    '''
+				    
+				if __name__ == '__main__':        
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+				Hint: 
+				
+				An easy way to determine if an integer, num, is square is to check 
+				
+				        num ** 0.5 % 1 == 0
+				
+				Or alternatively:
+				
+				        num ** 0.5 == int(num ** 0.5)
+				
+9	1	4	99.zip	Professor Poplex teaches several different courses. In all of them students sit a number of tests 
+				each year and their scores, out of a hundred, are recorded. A special prize is awarded to those 
+				students who meet certain criteria. 
+				
+				To get a prize students must 
+				
+				                achieve a certain overall total
+				                achieve an A+ (90 or higher) in at least half the tests.
+				
+				The number of tests varies according to the course. The overall total that is required to get a 
+				prize also varies according to the course.
+				
+				Write a function that returns the names of the students who have won a prize.
+				
+				It will need to take: 
+				
+				                the name of a file containing data for a class 
+				                the overall total mark required for that course
+				
+				It should return a string containing the name of each qualifying student followed by a space.
+				
+				Each line of a data file consists of a student's name and their marks, all separated by commas. 
+				
+				Your program should pass the doctests as shown.
+				
+				def special_prize_recipients(file_name, req_total):
+				    '''
+				    >>> special_prize_recipients('CODI106_marks.txt', 700)
+				    'Ronald Sue '
+				    >>> special_prize_recipients('CODI123_marks.txt', 500)
+				    'Carol '
+				    >>> special_prize_recipients('FDMS101_marks.txt', 400)
+				    ''
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+9	1	11	100.zip	Write a function that takes 
+				                - the name of a file containing data about cities. 
+				                - the name of a destination file to which output is written
+				
+				Each line of the data file contains the name of a city, the country it is in and its population. 
+				These pieces of information are separated by commas. At the moment the cities are in alphabetical
+				order. Your function should write the same information to the destination file but with the 
+				cities arranged in descending order of population. 
+				
+				Each line should still be in the order of 
+				                            
+				        'city, country, population'
+				
+				Note - the population should NOT be followed by a comma
+				     - the destination file does finish with a blank line
+				
+				Your function should pass the following doctests:
+				
+				def order_by_population(file_name, destination_file):
+				    '''
+				    >>> order_by_population('world_cities.txt', 'world_cities_by_pop.txt')
+				    >>> your_file1 = open('world_cities_by_pop.txt')
+				    >>> our_file1 = open('world_cities_by_pop_answer.txt')
+				    >>> your_file1.read()== our_file1.read()
+				    True
+				    >>> order_by_population('nz_cities.txt', 'nz_cities_by_pop.txt')
+				    >>> your_file2 = open('nz_cities_by_pop.txt')
+				    >>> our_file2 = open('nz_cities_by_pop_answer.txt')
+				    >>> your_file2.read()== our_file2.read()
+				    True
+				    >>> your_file1.close()
+				    >>> our_file1.close()
+				    >>> your_file2.close()
+				    >>> our_file2.close()
+				    '''
+				
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+9	1	5		Adapted from Wikipedia, the free encyclopedia
+				
+				        In mathematics, a square-free, or quadratfrei (from German language) integer, is an 
+				        integer which is divisible by no other perfect square than 1. For example, 10 is 
+				        square-free but 18 is not, as 18 is divisible by 9 (which is, of course, the square of 3)
+				
+				Write a function that takes two parameters. The function should return a string containing all the 
+				square-free integers between the two numbers (inclusive). In the string each integer should be 
+				followed by a space.
+				
+				You may find it easier to encapsulate, using another function that simply checks if one number is 
+				square-free.
+				
+				Your function should pass the following doctests:
+				
+				
+				def square_free_nums(x, n):
+				    '''
+				    >>> square_free_nums(10, 20)
+				    '10 11 13 14 15 17 19 '
+				    >>> square_free_nums(70, 97)
+				    '70 71 73 74 77 78 79 82 83 85 86 87 89 91 93 94 95 97 '
+				    '''
+				    
+				if __name__ == '__main__':        
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+				Hint: 
+				
+				An easy way to determine if an integer, num, is square is to check 
+				
+				        num ** 0.5 % 1 == 0
+				
+				Or alternatively:
+				
+				        num ** 0.5 == int(num ** 0.5)
+				
+9	1	6		Consider the following sequence where each number is the sum of the digits of all preceding terms:
+				
+				
+				1, 1, 2, 4, 8, 16, 23, 28, 38, 49, ...
+				
+				Note that 16 is followed by 23 because 1 + 1 + 2 + 4 + 8 + (1 + 6) == 23
+				
+				Likewise 23 is followed by 28 because 1 + 1 + 2 + 4 + 8 + (1 + 6) + (2 + 3) == 28
+				
+				
+				Write a function that takes an int, n, and returns the (n + 1)th number in the sequence. Your 
+				function must pass the following doctests:
+				
+				def sum_digits_sequence(n):
+				    '''
+				    >>> sum_digits_sequence(1000000)
+				31054319
+				    >>> sum_digits_sequence(9)
+				49
+				    >>> sum_digits_sequence(0)
+				1
+				    '''
+				    
+				    
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+9	1	7		Most Vowels
+				Write a function that takes a string containing zero or more words (separated by spaces). The function 
+				should return the index/position of the word containing the most vowels. 
+				Note: The first word, if there is one, occupies position zero.
+				
+				If more than one word has the highest number of vowels your function should return the highest index. 
+				If none of the words contain vowels the function should return -1.
+				
+				The function should pass the doctests shown below: 
+				
+				def find_word_with_most_vowels(s):
+				    '''
+				    >>> find_word_with_most_vowels('I would like to climb an extremely tall tree')
+				6
+				    >>> find_word_with_most_vowels('a ae aeiou aei aeio')
+				2
+				    >>> find_word_with_most_vowels('q qq qqq qqq qqq')
+				-1
+				    >>> find_word_with_most_vowels('I would like to climb an very tall tree')
+				8
+				    >>> find_word_with_most_vowels('a')
+				0
+				    >>> find_word_with_most_vowels('')
+				-1
+				    '''
+				    
+				if __name__ =="__main__":
+				    import doctest
+				    doctest.testmod(verbose = True)
+				
+10	1	1	142.zip	Write a simple GUI that calculates the total savings achieved by a single deposit (where the interest is compounded annually). 
+				
+				The application should have:
+				
+				        an entry box for the original amount in dollars
+				        an entry box for the number of years over which the interest is being accrued
+				        an entry box for the annual interest rate as a percent. 
+				
+				The total accrued amount can be calculated as:
+				       
+				       original_amount * (interest_rate/100 + 1 )** number_of_years
+				
+				The application should have the same layout as shown in the accompanying images (your program
+				won't pass unless the layout is as shown in the images in the .zip file).
+				
+10	1	2	143.zip	Write a simple GUI that calculates the total savings achieved by a single deposit (where the interest is compounded annually). 
+				
+				The application should have:
+				
+				        an entry box for the original amount in dollars
+				        an entry box for the number of years over which the interest is being accrued
+				        an entry box for the annual interest rate as a percent. 
+				
+				The total accrued amount can be calculated as:
+				       
+				       original_amount * (interest_rate/100 + 1 )** number_of_years
+				
+				The application should have the same layout as shown in the accompanying images (your program
+				won't pass unless the layout is as shown in the images in the .zip file).
+				
+10	1	3	144.zip	Write a simple GUI that calculates the temperature after wind chill is considered. 
+				
+				The application should have:
+				
+				        an entry box for the current temperature in celsius
+				        an entry box for the wind speed in km/h
+				
+				The temperature after factoring in wind chill is calculated as follows:
+				       
+				       13.12 + (temp * 0.6215) - (11.37 * wind ** 0.16) + (0.3965 * temp * wind ** 0.16)
+				
+				where temp is the current temperature and wind is the wind speed.
+				
+				The application should have the same layout as shown in the accompanying images (your program
+				won't pass unless the layout is as shown in the images in the .zip file).
+				
+10	1	4	145.zip	Write a simple GUI that calculates the temperature after wind chill is considered. 
+				
+				The application should have:
+				
+				        an entry box for the current temperature in celsius
+				        an entry box for the wind speed in km/h
+				
+				The temperature after factoring in wind chill is calculated as follows:
+				       
+				       13.12 + (temp * 0.6215) - (11.37 * wind ** 0.16) + (0.3965 * temp * wind ** 0.16)
+				
+				where temp is the current temperature and wind is the wind speed.
+				
+				The application should have the same layout as shown in the accompanying images (your program
+				won't pass unless the layout is as shown in the images in the .zip file).
+				
+11	1	1	146.zip	Lookup table
+				
+				Write a function called create_dict that takes a file name as an argument. The function should read each line in 
+				the file and split it on the comma. The first string should become a key, the second string should be the corresponding 
+				value.
+				
+				In the doctests, using the first file provided, the function is creating a dictionary where each key is a state in the USA
+				and the corresponding value is the state's capital city. Using the second, the function is creating a dictionary where each
+				key is a state in the USA and the corresponding value is the state's official abbreviation. 
+				
+				Be sure leading and trailing whitespace is removed from the strings before they are entered in the dictionary.
+				Hint: dir(str)
+				
+				You may be certain that there is only one comma per line of text in the file and the file contains no duplicates. 
+				
+				The function should pass the doctests shown below: 
+				
+				def create_dict(filename):
+				    '''
+				    >>> state_capitals = create_dict("state_capitals.txt")
+				    >>> sorted(state_capitals.values())[:5]
+				    ['Albany', 'Annapolis', 'Atlanta', 'Augusta', 'Austin']
+				    >>> state_capitals['Hawaii']
+				    'Honolulu'
+				    >>> state_capitals['New Mexico']
+				    'Santa Fe'
+				    >>> state_abbreviations = create_dict("state_abbreviations.txt")
+				    >>> sorted(state_abbreviations.values())[-5:]
+				    ['VT', 'WA', 'WI', 'WV', 'WY']
+				    >>> state_abbreviations['Hawaii']
+				    'HI'
+				    >>> state_abbreviations['New Mexico']
+				    'NM'
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+11	1	2	147.zip	Grouping dictionary
+				
+				This question asks you to create a dictionary from a file where the keys are single strings and the values are lists of strings 
+				associated with the key.
+				
+				Write a function called create_dict that takes a file name as an argument. The function should read each line in 
+				the file and split it on the comma. The second string should be a key, the first string should be appended to the list associated
+				with that key. Be sure leading and trailing whitespace is removed from the strings before they are entered in the dictionary.
+				Hint: dir(str)
+				
+				In the doctests, using the file provided, the function is creating a dictionary where each key is a region in Africa and the 
+				corresponding value is a list of countries or autonomous cities in that region.
+				
+				You may be certain that there is only one comma per line of text in the file and the file contains no duplicates. 
+				
+				The function should pass the doctests shown below: 
+				
+				def create_dict(file_name):
+				    '''
+				    >>> african_countries_by_region = create_dict("african_countries.txt")
+				    >>> sorted(african_countries_by_region['Northern Africa'])
+				    ['Algeria', 'Canary Islands', 'Ceuta', 'Egypt', 'Libya', 'Madeira', 'Melilla', 'Morocco', 'Sudan', 'Tunisia', 'Western Sahara']
+				    >>> sorted(african_countries_by_region['Southern Africa'])[-2]
+				    'Namibia'
+				    >>> sorted(african_countries_by_region['Eastern Africa'])[2]
+				    'Djibouti'
+				    '''
+				
+				if __name__== "__main__":
+				    import doctest
+				    doctest.testmod(verbose=True)
+				
+12	1	1	150.zip	You have been given a file, "nz_towns.txt",  that contains a large (but not exhaustive) selection of New Zealand 
+				towns and cities, followed by their latitude and longitude  coordinates.
+				
+				Remember:       latitude determines how far north or south a place is (measured from the equator)
+				                        longitude determines how far east or west a place is (measured from the prime meridian in Greenwich, England)
+				
+				Each line of the file contains the name of the town followed by its latitude and then its longitude. These are separated by commas.
+				
+				Write a function that creates a dictionary:
+				
+				        key -  the town's name as a string
+				        value -  a tuple consisting of the coordinates. Each coordinate is a float. To be consistent with common practice we need to put the latitude first.
+				
+				You should use the strip method to remove trailing white space from the names.
+				
+				
+				Your function should pass the following doctests:
+				
+				def create_dict(filename):
+				    '''
+				    >>> sample_dict = create_dict("sample.txt")
+				    >>> print(sample_dict)
+				    {'Auckland': (-36.85, 174.76), 'Manukau': (-37.0, 174.88), 'Christchurch': (-43.53, 172.64), 'North Shore': (-36.8, 174.75)}
+				    >>> d = create_dict("nz_towns.txt")
+				    >>> sorted(d.keys())[19]
+				    'Cheviot'
+				    >>> d[sorted(d.keys())[4]][1]
+				168.83
+				    '''
+				    
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)
+				    
+				Finally, in the main routine, determine and display the most westerly town in the dictionary (i.e. the one with the lowest longitude):
+				
+				        The most westerly New Zealand town/city we can find is ??
+				
+				You may, of course, write another function to do this if you wish.
+				
+12	1	2	151.zip	You have been given a file, "sports.txt". This document lists the sports played by children in a sample group.
+				 
+				                - Each line represents the sports played by a single child. 
+				                - The names of the sports are separated by commas. 
+				
+				Unfortunately this data is not quite pristine since each line may contain duplicates. E.g:
+				
+				                soccer,swimming,cricket,rugby,netball,rugby,fencing,archery
+				
+				PART 1
+				
+				Write a function that takes a the name of a file which is in the form described above and uses it to create a dictionary:
+				
+				                key -  the name of a sport
+				                value -  a count of how many children in the sample group play this sport
+				
+				You must remove any duplicates from a line before counting.
+				
+				
+				PART 2
+				
+				Write a function that takes a count dictionary like the one above and displays it as a bar graph 
+				by using the "]" symbol to build the horizontal bars. (see doctests)
+				
+				NOTE: 
+				                - each 'bar' in the graph starts with the name of the sport followed by a colon
+				                - the ']' symbols start 12 spaces in from the beginning of the name of the sport
+				                - the bar graph is in alphabetical order (top to bottom) 
+				
+				
+				Your functions should pass the following doctests:
+				
+				def create_dict(filename):
+				    '''
+				    >>> d = create_dict("sports.txt")
+				    >>> print(sorted(d.values())[3])
+				2
+				    >>> print(sorted(d.keys())[3])
+				    cricket
+				    >>> d['cricket']
+				5
+				    >>> d['archery']
+				2
+				    ''' 
+				    
+				def display_as_bar_graph(d):
+				    '''
+				    >>> display_as_bar_graph(create_dict("test.txt"))
+				    netball:     ]]]]]]]]]]
+				    >>> display_as_bar_graph(create_dict("sports.txt"))
+				    archery:     ]]
+				    athletics:   ]]]]
+				    badminton:   ]]]
+				    cricket:     ]]]]]
+				    fencing:     ]
+				    hockey:      ]]
+				    netball:     ]]]]]]]
+				    rugby:       ]]]]]]
+				    rugby league:]
+				    soccer:      ]]]]]
+				    softball:    ]]
+				    swimming:    ]]]]]]
+				    tennis:      ]]]]]
+				    '''
+				    
+				if __name__ == '__main__':
+				    import doctest
+				    doctest.testmod(verbose = True)

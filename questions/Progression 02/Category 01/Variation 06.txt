@@ -1,0 +1,13 @@
+Create a Python script that asks the user for their name and then two numbers, the cost 
+of an item that they wish to purchase and how much they wish to pay per month. Calculate 
+and print how many months it will take for them to pay off the item (interest-free and with 
+no deposit). 
+
+Your program should behave like this (3000.0 and 30.0 are the values entered by the user):
+
+>>>
+Enter your name:  Alice
+Enter the cost of the item in dollars: 3000.0
+Enter amount you wish to pay per month (in dollars): 30.0
+Alice, you will take 100.0 months to pay this off.
+>>>

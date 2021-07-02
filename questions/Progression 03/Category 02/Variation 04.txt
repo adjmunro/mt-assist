@@ -1,0 +1,19 @@
+Write a function for a television shopping network that takes 1 argument - the total amount 
+they have spent in the past 12 months. It should then return their status.
+
+If they have spent $2000 or more they qualify as 'platinum' customers. Otherwise if the amount is 
+$1000 or more they qualify as 'gold' customers. Anyone who has spent anything at all with them 
+qualifies as 'silver'. If the customer has spent nothing their status is 'new'.
+
+Add a main routine that asks the user for their name and the amount they have spent and prints 
+out a greeting as shown below (where Mary-Lou and 12500 are the values entered by the user):
+
+
+>>>
+Enter your name: Mary-Lou
+Enter the amount you have spent with us: $12500
+Welcome Mary-Lou! You are a platinum customer.
+>>>
+
+Add further statements to main to test your function with a good selection of hardcoded values. 
+You may assume that the user will enter a non-negative number.

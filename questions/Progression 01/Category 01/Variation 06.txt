@@ -1,0 +1,17 @@
+Given the following:
+
+s1 = 'Aussie'
+s2 = 'Oy'
+s3 = '!'
+s4 = ' '
+x = 3
+        
+Write an expression using only these variables that will evaluate to:
+        
+         'Aussie! Aussie! Aussie! Oy! Oy! Oy! '
+
+You should use concatenation and any other suitable operators.
+
+Each variable must be used at least once.
+
+You will need to show a demonstrator that it works.

@@ -1,0 +1,40 @@
+Requires File: 146.zip
+
+Lookup table
+
+Write a function called create_dict that takes a file name as an argument. The function should read each line in 
+the file and split it on the comma. The first string should become a key, the second string should be the corresponding 
+value.
+
+In the doctests, using the first file provided, the function is creating a dictionary where each key is a state in the USA
+and the corresponding value is the state's capital city. Using the second, the function is creating a dictionary where each
+key is a state in the USA and the corresponding value is the state's official abbreviation. 
+
+Be sure leading and trailing whitespace is removed from the strings before they are entered in the dictionary.
+Hint: dir(str)
+
+You may be certain that there is only one comma per line of text in the file and the file contains no duplicates. 
+
+The function should pass the doctests shown below: 
+
+def create_dict(filename):
+    '''
+    >>> state_capitals = create_dict("state_capitals.txt")
+    >>> sorted(state_capitals.values())[:5]
+    ['Albany', 'Annapolis', 'Atlanta', 'Augusta', 'Austin']
+    >>> state_capitals['Hawaii']
+    'Honolulu'
+    >>> state_capitals['New Mexico']
+    'Santa Fe'
+    >>> state_abbreviations = create_dict("state_abbreviations.txt")
+    >>> sorted(state_abbreviations.values())[-5:]
+    ['VT', 'WA', 'WI', 'WV', 'WY']
+    >>> state_abbreviations['Hawaii']
+    'HI'
+    >>> state_abbreviations['New Mexico']
+    'NM'
+    '''
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)

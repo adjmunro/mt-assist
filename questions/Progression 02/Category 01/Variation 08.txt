@@ -1,0 +1,13 @@
+A group of friends are pooling equal amounts of their money to buy a gift for another friend's 
+birthday. Write a python script that asks the user for the name of the friend and then how 
+many friends want to 'chip in' and the total price of the gift they wish to purchase.  Print 
+how much each person has to pay if they split the cost evenly. 
+
+Your program should behave like this ('Bill', 6 and 129.0 are the values entered by the user):
+
+>>>
+Whose birthday is it?: Bill
+Enter the number of friends contributing to the present: 6
+Enter the total amount you wish to spend in dollars: 129.0
+Each friend needs to pay $21.5 towards the present for Bill
+>>>

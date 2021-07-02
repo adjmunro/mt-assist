@@ -1,0 +1,25 @@
+Generate Usercode
+
+Write a function that takes 2 string parameters, first_name and last_name, and an int.  It 
+should generate and return an Otago university usercode. These are always lower case. The 
+usercode should consist of the first 3 letters of last_name followed by the first two letters 
+of first_name followed by the int. If last_name is shorter than 3 or first_name is shorter than 
+2, simply include as many letters as you can.
+
+The function should pass the following doctests.  
+
+def generate_usercode(first_name, last_name, id_num):
+    '''
+    >>> generate_usercode("Tyrion", "Lannister", 459)
+    'lanty459'
+    >>> generate_usercode("Arya", "Stark", 1382)
+    'staar1382'
+    >>> generate_usercode("A", "S", 1382)
+    'sa1382'
+    ''' 
+
+if __name__== "__main__":
+    import doctest
+    doctest.testmod(verbose=True)
+
+NOTE: Remember to make use of string methods where suitable.

@@ -1,0 +1,10 @@
+Given the following:
+
+        a = 11
+        b = 4
+        c = 8
+
+Write an expression using only these variables (and any operators that you need) that will 
+evaluate to 130. (Each variable must be used at least once).
+
+You will need to show a demonstrator that it works.
