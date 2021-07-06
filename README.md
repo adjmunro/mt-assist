@@ -17,8 +17,16 @@ MT Assist is designed specifically for Otago University's COMP150 (Python) paper
   * Should human error occur in the marking process, there is an insufficient data trail to determine the validity of the student's claims.
   
 ## Solution
-* Time Reduction:
+* Test Deployment:
   * Split the spreadsheet into individual TXT files within a directory heirachy of Progression No.>Categories>Variations;
   * Single button click is required to select a progression number for the master test;
   * Randomly selected variations of each category are read in and composed into the view window together with the test rules;
-  * A second click
+  * A second click copies all questions and rules to clipboard, so that it can be pasted into a messaging client (MS Teams, in our case).
+* Test ID:
+  * All compositions come with a unique identifying code, which represents the progression number, categories, variation number, and test start datetime;
+  * When marking, the unique identifying code can be pasted into the search box, to retrieve the exact questions, and the student's test duration;
+  * Loading a local copy of the questions massively helps with lab demonstrators cohesion and marking speed;
+  * Recording the student's test duration verifies the integrity of their effort by ensuring none submit over the time limit;
+  * Tracking the test duration of each student in the marking window also helps lab demonstrators inform students of their time remaining, time management planning, and recording students who left the test incomplete without notifying the demonstrator (for administration purposes).
+* Some basic colour formatting was also added to help with the readability of the questions for demonstrators.
+* The marking window, keeps a data trail of students' tests, which allows lab demonstrators to easily exchange results and ensure everyone has been marked off. 
